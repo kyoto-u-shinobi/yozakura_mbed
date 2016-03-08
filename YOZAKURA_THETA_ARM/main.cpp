@@ -28,6 +28,35 @@ int inits[] =    {   5,  270,  270,   90,  178};
 float goals[] =  { 5.0,270.0,270.0, 90.0,178.0};
 int command[] =  {   0,    0,    0,    0,    0};
 
+Serial pc(USBTX, USBRX);
+
+ros::NodeHandle nh;
+
+void command_callback(const std_msgs::Int16MultiArray& arm_command) {
+  for (int i=0; i<5; i++) {
+    command[i]=arm_command.data[i];
+  }
+}
+ros::Subscriber<std_msgs::Int16MultiArray> sub("arm_command", &command_callback);
+
+std_msgs::Float32MultiArray thermo;
+ros::Publisher pub_thermal("thermo_data", &thermo);
+
+std_msgs::Float32MultiArray co2;
+ros::Publisher pub_co2("co2_data", &co2);
+
+std_msgs::Float32MultiArray position;
+ros::Publisher pub_position("joint_angle", &position);
+
+
+
+// Get all position data
+void GetAllPositions() {
+  for (int i=0; i<5; i++) {
+    position.data[i] = servos[i]->GetPosition();
+  }
+}
+
 // Check if any of the dynaimxel is moving
 bool AnyDxMoving() {
   for (int i=0; i<5; i++) {
@@ -39,12 +68,47 @@ bool AnyDxMoving() {
 // Move dynamixel to home position
 // TODO: Avoid collision
 void DxGoHome() {
+  elbow_pitch->SetGoal(inits[3]);
+  wrist_yaw->SetGoal(inits[4]); 
+  GetAllPositions();
+  if (position.data[0] > -68.0 && position.data[0] < 68.0) {
+    base_yaw->SetGoal(inits[0]);
+  }
+  else if (position.data[0] > -171.0 && position.data[0] < 171.0) {
+    base_pitch_master->SetGoal(240);
+    base_pitch_slave->SetGoal(240);
+    while (1) {
+      GetAllPositions();
+      if (position.data[1] < 245.0) {
+        break;
+      }
+      wait_ms(10);
+    }
+  }
+  else {
+    base_pitch_master->SetGoal(220);
+    base_pitch_slave->SetGoal(220);
+    while (1) {
+      GetAllPositions();
+      if (position.data[1] < 225.0) {
+        break;
+      }
+      wait_ms(10);
+    }
+  }
+  
   base_yaw->SetGoal(inits[0]);
+  while (1) {
+    GetAllPositions();
+    if (position.data[0] > -68.0 && position.data[0] < 68.0) {
+      base_pitch_master->SetGoal(inits[1]);
+      base_pitch_slave->SetGoal(inits[2]);
+      break;
+    }
+    wait_ms(10);
+  }
   base_pitch_master->SetGoal(inits[1]);
   base_pitch_slave->SetGoal(inits[2]);
-  elbow_pitch->SetGoal(inits[3]);
-  wrist_yaw->SetGoal(inits[4]);  
-  
   while (AnyDxMoving()) {
     wait_ms(10);
   }
@@ -66,24 +130,8 @@ float GetCO2() {
 }
 */
 
-ros::NodeHandle nh;
 
-void command_callback(const std_msgs::Int16MultiArray& arm_command) {
-  for (int i=0; i<5; i++) {
-    command[i]=arm_command.data[i];
-  }
-}
-ros::Subscriber<std_msgs::Int16MultiArray> sub("arm_command", &command_callback);
-
-std_msgs::Float32MultiArray thermo;
-ros::Publisher pub_thermal("thermo_data", &thermo);
-
-std_msgs::Float32MultiArray co2;
-ros::Publisher pub_co2("co2_data", &co2);
-
-std_msgs::Float32MultiArray position;
-ros::Publisher pub_position("joint_angle", &position);
-
+//=======================================================
 int main() {
   servos.push_back(base_yaw);
   servos.push_back(base_pitch_master);
@@ -93,8 +141,6 @@ int main() {
   
 //  float thermo_data[2][16];
 
-  DxInitialize();
-  DxGoHome();
 
   nh.initNode();
 
@@ -113,7 +159,10 @@ int main() {
   for (int i=0; i<32; i++) {
     thermo.data[i] = 0.0;
   }
-
+  
+  DxInitialize();
+  DxGoHome();
+  
   // Main loop
   while (1) {
 
@@ -134,7 +183,7 @@ int main() {
     pub_co2.publish(&co2);
     */
      
-    for (int i=0; i<5; i++) {
+/*    for (int i=0; i<5; i++) {
       goals[i] += 1.0 * command[i];
       if (i != 0) {
         if (goals[i] > maxima[i]) goals[i] = maxima[i];
@@ -146,6 +195,6 @@ int main() {
     pub_position.publish(&position);
     
     nh.spinOnce();
-    wait_ms(30);
+*/    wait_ms(30);
   }
 }
