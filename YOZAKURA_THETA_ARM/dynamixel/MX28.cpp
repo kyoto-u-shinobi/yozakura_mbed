@@ -231,7 +231,7 @@ float MX28::GetPosition(void) {
 
     int ErrorCode = read(_ID, MX28_REG_POSITION, 2, data);
     short position = data[0] + (data[1] << 8);
-    float angle = (position * 300)/1024;
+    float angle = (position * 360)/4095;
 
     return (angle);
 }
