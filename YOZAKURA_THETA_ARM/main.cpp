@@ -28,6 +28,7 @@ int inits[] =    {   5,  270,  270,   90,  178};
 float goals[] =  { 5.0,270.0,270.0, 90.0,178.0};
 int command[] =  {   0,    0,    0,    0,    0};
 int home_command = 0;
+int reset_torque_command = 0;
 
 Serial pc(USBTX, USBRX);
 
@@ -40,6 +41,7 @@ void command_callback(const std_msgs::Int16MultiArray& arm_command) {
     command[i]=arm_command.data[i];
   }
   home_command = arm_command.data[5];
+  reset_torque_command = arm_command.data[6];
 }
 
 ros::Subscriber<std_msgs::Int16MultiArray> sub("arm_command", &command_callback);
@@ -51,7 +53,7 @@ std_msgs::Float32MultiArray co2;
 ros::Publisher pub_co2("co2_data", &co2);
 
 std_msgs::Float32MultiArray position;
-ros::Publisher pub_position("joint_angle", &position);
+ros::Publisher pub_position("arm_position", &position);
 
 
 // Get and publish position data
@@ -60,6 +62,16 @@ void GetPubPosition() {
     position.data[i] = servos[i]->GetPosition();
   }
   pub_position.publish(&position);
+}
+
+// Reset torque limit
+void DxResetTorque() {
+  GetPubPosition();
+  for (int i=0; i<5; i++) {
+    goals[i] = position.data[i];
+    servos[i]->SetGoal(int(goals[i]));
+//    servos[i}->SetTorqueLimit(1.0);       要確認
+  }
 }
 
 // Check if any of the dynaimxel is moving
@@ -78,34 +90,27 @@ void DxGoHome() {
   if (position.data[0] > -68.0 && position.data[0] < 68.0) {
     base_yaw->SetGoal(inits[0]);
   }
-  else if (position.data[0] > -171.0 && position.data[0] < 171.0) {
-    base_pitch_master->SetGoal(240);
-    base_pitch_slave->SetGoal(240);
-    while (1) {
-      GetPubPosition();
-      elbow_pitch->SetGoal(inits[3]+inits[1]-int(position.data[1]));
-      if (position.data[1] < 245.0) {
-        break;
-      }
-      nh.spinOnce();
-      wait_ms(10);
-    }
-  }
   else {
     base_pitch_master->SetGoal(220);
     base_pitch_slave->SetGoal(220);
     while (1) {
+      if (reset_torque_command)  {
+        DxResetTorque();
+        return;
+      }
       GetPubPosition();
       elbow_pitch->SetGoal(inits[3]+inits[1]-int(position.data[1]));
-      if (position.data[1] < 225.0) {
-        break;
-      }
+      if (position.data[1] < 225.0)  break;
       nh.spinOnce();
       wait_ms(10);
     }
   }
   base_yaw->SetGoal(inits[0]);
   while (1) {
+    if (reset_torque_command)  {
+      DxResetTorque();
+      return;
+    }
     GetPubPosition();
     elbow_pitch->SetGoal(inits[3]+inits[1]-int(position.data[1]));
     if (position.data[0] > -68.0 && position.data[0] < 68.0) {
@@ -119,6 +124,10 @@ void DxGoHome() {
   base_pitch_master->SetGoal(inits[1]);
   base_pitch_slave->SetGoal(inits[2]);
   while (AnyDxMoving()) {
+    if (reset_torque_command)  {
+      DxResetTorque();
+      return;
+    }
     GetPubPosition();
     elbow_pitch->SetGoal(inits[3]+inits[1]-int(position.data[1]));
     nh.spinOnce();
@@ -197,9 +206,10 @@ int main() {
     pub_co2.publish(&co2);
     */
     
-    if (home_command) {
+    if (home_command)
       DxGoHome();
-    }
+    else if (reset_torque_command)
+      DxResetTorque();
     else {
       for (int i=0; i<5; i++) {
         goals[i] += 1.0 * command[i];
