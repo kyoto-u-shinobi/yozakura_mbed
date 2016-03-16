@@ -7760,7 +7760,7 @@ END GROUP
 LOAD /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtend.o
 LOAD /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtn.o
 
-.text           0x00000000     0xb6d8
+.text           0x00000000     0xb6e8
  *(.isr_vector)
  .isr_vector    0x00000000       0xcc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(startup_LPC17xx.o)
                 0x00000000                __isr_vector
@@ -7904,915 +7904,915 @@ LOAD /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm
                 0x00001254      0x2f8 LPC1768/main.o
                 0x00001254                GetPubPosition()
  .text._Z13DxResetTorquev
-                0x0000154c       0x48 LPC1768/main.o
+                0x0000154c       0x58 LPC1768/main.o
                 0x0000154c                DxResetTorque()
  .text._Z12DxInitializev
-                0x00001594       0x54 LPC1768/main.o
-                0x00001594                DxInitialize()
+                0x000015a4       0x54 LPC1768/main.o
+                0x000015a4                DxInitialize()
  .text._ZN3ros11NodeHandle_I12MbedHardwareLi25ELi25ELi512ELi512EE15requestSyncTimeEv
-                0x000015e8       0xb8 LPC1768/main.o
-                0x000015e8                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::requestSyncTime()
+                0x000015f8       0xb8 LPC1768/main.o
+                0x000015f8                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::requestSyncTime()
  .text._Z8DxGoHomev
-                0x000016a0     0x1ca4 LPC1768/main.o
-                0x000016a0                DxGoHome()
+                0x000016b0     0x1ca4 LPC1768/main.o
+                0x000016b0                DxGoHome()
  .text._ZN3ros11NodeHandle_I12MbedHardwareLi25ELi25ELi512ELi512EE15negotiateTopicsEv
-                0x00003344      0x558 LPC1768/main.o
-                0x00003344                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::negotiateTopics()
+                0x00003354      0x558 LPC1768/main.o
+                0x00003354                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::negotiateTopics()
  .text._ZN3ros11NodeHandle_I12MbedHardwareLi25ELi25ELi512ELi512EE8spinOnceEv
-                0x0000389c      0x728 LPC1768/main.o
-                0x0000389c                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::spinOnce()
+                0x000038ac      0x728 LPC1768/main.o
+                0x000038ac                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::spinOnce()
  .text._ZNSt6vectorIP9DynamixelSaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_
-                0x00003fc4       0x78 LPC1768/main.o
-                0x00003fc4                void std::vector<Dynamixel*, std::allocator<Dynamixel*> >::_M_emplace_back_aux<Dynamixel*>(Dynamixel*&&)
-                0x00003fc4                void std::vector<Dynamixel*, std::allocator<Dynamixel*> >::_M_emplace_back_aux<Dynamixel*>(Dynamixel*&&)
+                0x00003fd4       0x78 LPC1768/main.o
+                0x00003fd4                void std::vector<Dynamixel*, std::allocator<Dynamixel*> >::_M_emplace_back_aux<Dynamixel*>(Dynamixel*&&)
+                0x00003fd4                void std::vector<Dynamixel*, std::allocator<Dynamixel*> >::_M_emplace_back_aux<Dynamixel*>(Dynamixel*&&)
  .text._ZNSt6vectorIP9DynamixelSaIS1_EE12emplace_backIJS1_EEEvDpOT_
-                0x0000403c       0x20 LPC1768/main.o
-                0x0000403c                void std::vector<Dynamixel*, std::allocator<Dynamixel*> >::emplace_back<Dynamixel*>(Dynamixel*&&)
-                0x0000403c                void std::vector<Dynamixel*, std::allocator<Dynamixel*> >::emplace_back<Dynamixel*>(Dynamixel*&&)
+                0x0000404c       0x20 LPC1768/main.o
+                0x0000404c                void std::vector<Dynamixel*, std::allocator<Dynamixel*> >::emplace_back<Dynamixel*>(Dynamixel*&&)
+                0x0000404c                void std::vector<Dynamixel*, std::allocator<Dynamixel*> >::emplace_back<Dynamixel*>(Dynamixel*&&)
  .text.startup.main
-                0x0000405c     0x115c LPC1768/main.o
-                0x0000405c                main
+                0x0000406c     0x115c LPC1768/main.o
+                0x0000406c                main
  .text._ZN4mbed6SerialD0Ev
-                0x000051b8       0x38 LPC1768/main.o
-                0x000051b8                mbed::Serial::~Serial()
-                0x000051e0                non-virtual thunk to mbed::Serial::~Serial()
-                0x000051e8                non-virtual thunk to mbed::Serial::~Serial()
+                0x000051c8       0x38 LPC1768/main.o
+                0x000051c8                mbed::Serial::~Serial()
+                0x000051f0                non-virtual thunk to mbed::Serial::~Serial()
+                0x000051f8                non-virtual thunk to mbed::Serial::~Serial()
  .text.startup._GLOBAL__sub_I_servos
-                0x000051f0      0x278 LPC1768/main.o
+                0x00005200      0x278 LPC1768/main.o
  .text._ZN3ros11NodeHandle_I12MbedHardwareLi25ELi25ELi512ELi512EED2Ev
-                0x00005468       0x18 LPC1768/main.o
-                0x00005468                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::~NodeHandle_()
-                0x00005468                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::~NodeHandle_()
+                0x00005478       0x18 LPC1768/main.o
+                0x00005478                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::~NodeHandle_()
+                0x00005478                ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>::~NodeHandle_()
  .text._ZN4mbed16SerialHalfDuplex5_putcEi
-                0x00005480       0x30 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
-                0x00005480                mbed::SerialHalfDuplex::_putc(int)
+                0x00005490       0x30 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
+                0x00005490                mbed::SerialHalfDuplex::_putc(int)
  .text._ZThn64_N4mbed16SerialHalfDuplex5_putcEi
-                0x000054b0        0x8 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
-                0x000054b0                non-virtual thunk to mbed::SerialHalfDuplex::_putc(int)
+                0x000054c0        0x8 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
+                0x000054c0                non-virtual thunk to mbed::SerialHalfDuplex::_putc(int)
  .text._ZN4mbed16SerialHalfDuplex5_getcEv
-                0x000054b8        0x4 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
-                0x000054b8                mbed::SerialHalfDuplex::_getc()
+                0x000054c8        0x4 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
+                0x000054c8                mbed::SerialHalfDuplex::_getc()
  .text._ZThn64_N4mbed16SerialHalfDuplex5_getcEv
-                0x000054bc        0x8 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
-                0x000054bc                non-virtual thunk to mbed::SerialHalfDuplex::_getc()
+                0x000054cc        0x8 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
+                0x000054cc                non-virtual thunk to mbed::SerialHalfDuplex::_getc()
  .text._ZN4mbed16SerialHalfDuplexD2Ev
-                0x000054c4       0x34 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
-                0x000054c4                mbed::SerialHalfDuplex::~SerialHalfDuplex()
-                0x000054c4                mbed::SerialHalfDuplex::~SerialHalfDuplex()
-                0x000054e8                non-virtual thunk to mbed::SerialHalfDuplex::~SerialHalfDuplex()
-                0x000054f0                non-virtual thunk to mbed::SerialHalfDuplex::~SerialHalfDuplex()
+                0x000054d4       0x34 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
+                0x000054d4                mbed::SerialHalfDuplex::~SerialHalfDuplex()
+                0x000054d4                mbed::SerialHalfDuplex::~SerialHalfDuplex()
+                0x000054f8                non-virtual thunk to mbed::SerialHalfDuplex::~SerialHalfDuplex()
+                0x00005500                non-virtual thunk to mbed::SerialHalfDuplex::~SerialHalfDuplex()
  .text._ZN4mbed16SerialHalfDuplexD0Ev
-                0x000054f8       0x38 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
-                0x000054f8                mbed::SerialHalfDuplex::~SerialHalfDuplex()
-                0x00005520                non-virtual thunk to mbed::SerialHalfDuplex::~SerialHalfDuplex()
-                0x00005528                non-virtual thunk to mbed::SerialHalfDuplex::~SerialHalfDuplex()
+                0x00005508       0x38 LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
+                0x00005508                mbed::SerialHalfDuplex::~SerialHalfDuplex()
+                0x00005530                non-virtual thunk to mbed::SerialHalfDuplex::~SerialHalfDuplex()
+                0x00005538                non-virtual thunk to mbed::SerialHalfDuplex::~SerialHalfDuplex()
  .text._ZN4mbed16SerialHalfDuplexC2E7PinNameS1_PKc
-                0x00005530       0x3c LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
-                0x00005530                mbed::SerialHalfDuplex::SerialHalfDuplex(PinName, PinName, char const*)
-                0x00005530                mbed::SerialHalfDuplex::SerialHalfDuplex(PinName, PinName, char const*)
- *fill*         0x0000556c        0x4 
+                0x00005540       0x3c LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
+                0x00005540                mbed::SerialHalfDuplex::SerialHalfDuplex(PinName, PinName, char const*)
+                0x00005540                mbed::SerialHalfDuplex::SerialHalfDuplex(PinName, PinName, char const*)
+ *fill*         0x0000557c        0x4 
  .text._ZN5MX10610SetCRSpeedEf
-                0x00005570       0x60 LPC1768/dynamixel/MX106.o
-                0x00005570                MX106::SetCRSpeed(float)
+                0x00005580       0x60 LPC1768/dynamixel/MX106.o
+                0x00005580                MX106::SetCRSpeed(float)
  .text._ZN5MX10610SetCWLimitEi
-                0x000055d0       0x40 LPC1768/dynamixel/MX106.o
-                0x000055d0                MX106::SetCWLimit(int)
+                0x000055e0       0x40 LPC1768/dynamixel/MX106.o
+                0x000055e0                MX106::SetCWLimit(int)
  .text._ZN5MX10611SetCCWLimitEi
-                0x00005610       0x40 LPC1768/dynamixel/MX106.o
-                0x00005610                MX106::SetCCWLimit(int)
+                0x00005620       0x40 LPC1768/dynamixel/MX106.o
+                0x00005620                MX106::SetCCWLimit(int)
  .text._ZN5MX1065SetIDEii
-                0x00005650       0x20 LPC1768/dynamixel/MX106.o
-                0x00005650                MX106::SetID(int, int)
+                0x00005660       0x20 LPC1768/dynamixel/MX106.o
+                0x00005660                MX106::SetID(int, int)
  .text._ZN5MX1068isMovingEv
-                0x00005670       0x1c LPC1768/dynamixel/MX106.o
-                0x00005670                MX106::isMoving()
+                0x00005680       0x1c LPC1768/dynamixel/MX106.o
+                0x00005680                MX106::isMoving()
  .text._ZN5MX10611GetPositionEv
-                0x0000568c       0x44 LPC1768/dynamixel/MX106.o
-                0x0000568c                MX106::GetPosition()
+                0x0000569c       0x44 LPC1768/dynamixel/MX106.o
+                0x0000569c                MX106::GetPosition()
  .text._ZN5MX1067GetTempEv
-                0x000056d0       0x20 LPC1768/dynamixel/MX106.o
-                0x000056d0                MX106::GetTemp()
+                0x000056e0       0x20 LPC1768/dynamixel/MX106.o
+                0x000056e0                MX106::GetTemp()
  .text._ZN5MX1068GetVoltsEv
-                0x000056f0       0x30 LPC1768/dynamixel/MX106.o
-                0x000056f0                MX106::GetVolts()
+                0x00005700       0x30 LPC1768/dynamixel/MX106.o
+                0x00005700                MX106::GetVolts()
  .text._ZN5MX10610GetCurrentEv
-                0x00005720       0x48 LPC1768/dynamixel/MX106.o
-                0x00005720                MX106::GetCurrent()
+                0x00005730       0x48 LPC1768/dynamixel/MX106.o
+                0x00005730                MX106::GetCurrent()
  .text._ZN5MX10612TorqueEnableEi
-                0x00005768       0x20 LPC1768/dynamixel/MX106.o
-                0x00005768                MX106::TorqueEnable(int)
+                0x00005778       0x20 LPC1768/dynamixel/MX106.o
+                0x00005778                MX106::TorqueEnable(int)
  .text._ZN5MX10614SetTorqueLimitEf
-                0x00005788       0x40 LPC1768/dynamixel/MX106.o
-                0x00005788                MX106::SetTorqueLimit(float)
+                0x00005798       0x40 LPC1768/dynamixel/MX106.o
+                0x00005798                MX106::SetTorqueLimit(float)
  .text._ZN5MX10612SetDriveModeEii
-                0x000057c8       0x24 LPC1768/dynamixel/MX106.o
-                0x000057c8                MX106::SetDriveMode(int, int)
+                0x000057d8       0x24 LPC1768/dynamixel/MX106.o
+                0x000057d8                MX106::SetDriveMode(int, int)
  .text._ZN5MX1067triggerEv
-                0x000057ec       0x48 LPC1768/dynamixel/MX106.o
-                0x000057ec                MX106::trigger()
+                0x000057fc       0x48 LPC1768/dynamixel/MX106.o
+                0x000057fc                MX106::trigger()
  .text._ZN5MX1064readEiiiPc
-                0x00005834       0xbc LPC1768/dynamixel/MX106.o
-                0x00005834                MX106::read(int, int, int, char*)
+                0x00005844       0xbc LPC1768/dynamixel/MX106.o
+                0x00005844                MX106::read(int, int, int, char*)
  .text._ZN5MX1065writeEiiiPci
-                0x000058f0       0xc8 LPC1768/dynamixel/MX106.o
-                0x000058f0                MX106::write(int, int, int, char*, int)
+                0x00005900       0xc8 LPC1768/dynamixel/MX106.o
+                0x00005900                MX106::write(int, int, int, char*, int)
  .text._ZN5MX1067SetGoalEii
-                0x000059b8       0x6c LPC1768/dynamixel/MX106.o
-                0x000059b8                MX106::SetGoal(int, int)
+                0x000059c8       0x6c LPC1768/dynamixel/MX106.o
+                0x000059c8                MX106::SetGoal(int, int)
  .text._ZN5MX1067SetModeEi
-                0x00005a24       0x34 LPC1768/dynamixel/MX106.o
-                0x00005a24                MX106::SetMode(int)
+                0x00005a34       0x34 LPC1768/dynamixel/MX106.o
+                0x00005a34                MX106::SetMode(int)
  .text._ZN5MX106C2E7PinNameS0_i
-                0x00005a58       0x2c LPC1768/dynamixel/MX106.o
-                0x00005a58                MX106::MX106(PinName, PinName, int)
-                0x00005a58                MX106::MX106(PinName, PinName, int)
- *fill*         0x00005a84        0x4 
+                0x00005a68       0x2c LPC1768/dynamixel/MX106.o
+                0x00005a68                MX106::MX106(PinName, PinName, int)
+                0x00005a68                MX106::MX106(PinName, PinName, int)
+ *fill*         0x00005a94        0x4 
  .text._ZN4MX2810SetCRSpeedEf
-                0x00005a88       0x60 LPC1768/dynamixel/MX28.o
-                0x00005a88                MX28::SetCRSpeed(float)
+                0x00005a98       0x60 LPC1768/dynamixel/MX28.o
+                0x00005a98                MX28::SetCRSpeed(float)
  .text._ZN4MX2810SetCWLimitEi
-                0x00005ae8       0x40 LPC1768/dynamixel/MX28.o
-                0x00005ae8                MX28::SetCWLimit(int)
+                0x00005af8       0x40 LPC1768/dynamixel/MX28.o
+                0x00005af8                MX28::SetCWLimit(int)
  .text._ZN4MX2811SetCCWLimitEi
-                0x00005b28       0x40 LPC1768/dynamixel/MX28.o
-                0x00005b28                MX28::SetCCWLimit(int)
+                0x00005b38       0x40 LPC1768/dynamixel/MX28.o
+                0x00005b38                MX28::SetCCWLimit(int)
  .text._ZN4MX285SetIDEii
-                0x00005b68       0x20 LPC1768/dynamixel/MX28.o
-                0x00005b68                MX28::SetID(int, int)
+                0x00005b78       0x20 LPC1768/dynamixel/MX28.o
+                0x00005b78                MX28::SetID(int, int)
  .text._ZN4MX288isMovingEv
-                0x00005b88       0x1c LPC1768/dynamixel/MX28.o
-                0x00005b88                MX28::isMoving()
+                0x00005b98       0x1c LPC1768/dynamixel/MX28.o
+                0x00005b98                MX28::isMoving()
  .text._ZN4MX2811GetPositionEv
-                0x00005ba4       0x44 LPC1768/dynamixel/MX28.o
-                0x00005ba4                MX28::GetPosition()
+                0x00005bb4       0x44 LPC1768/dynamixel/MX28.o
+                0x00005bb4                MX28::GetPosition()
  .text._ZN4MX287GetTempEv
-                0x00005be8       0x20 LPC1768/dynamixel/MX28.o
-                0x00005be8                MX28::GetTemp()
+                0x00005bf8       0x20 LPC1768/dynamixel/MX28.o
+                0x00005bf8                MX28::GetTemp()
  .text._ZN4MX288GetVoltsEv
-                0x00005c08       0x30 LPC1768/dynamixel/MX28.o
-                0x00005c08                MX28::GetVolts()
+                0x00005c18       0x30 LPC1768/dynamixel/MX28.o
+                0x00005c18                MX28::GetVolts()
  .text._ZN4MX2810GetCurrentEv
-                0x00005c38       0x48 LPC1768/dynamixel/MX28.o
-                0x00005c38                MX28::GetCurrent()
+                0x00005c48       0x48 LPC1768/dynamixel/MX28.o
+                0x00005c48                MX28::GetCurrent()
  .text._ZN4MX2812TorqueEnableEi
-                0x00005c80       0x20 LPC1768/dynamixel/MX28.o
-                0x00005c80                MX28::TorqueEnable(int)
+                0x00005c90       0x20 LPC1768/dynamixel/MX28.o
+                0x00005c90                MX28::TorqueEnable(int)
  .text._ZN4MX2814SetTorqueLimitEf
-                0x00005ca0       0x40 LPC1768/dynamixel/MX28.o
-                0x00005ca0                MX28::SetTorqueLimit(float)
+                0x00005cb0       0x40 LPC1768/dynamixel/MX28.o
+                0x00005cb0                MX28::SetTorqueLimit(float)
  .text._ZN4MX2812SetDriveModeEii
-                0x00005ce0        0x4 LPC1768/dynamixel/MX28.o
-                0x00005ce0                MX28::SetDriveMode(int, int)
+                0x00005cf0        0x4 LPC1768/dynamixel/MX28.o
+                0x00005cf0                MX28::SetDriveMode(int, int)
  .text._ZN4MX287triggerEv
-                0x00005ce4       0x48 LPC1768/dynamixel/MX28.o
-                0x00005ce4                MX28::trigger()
+                0x00005cf4       0x48 LPC1768/dynamixel/MX28.o
+                0x00005cf4                MX28::trigger()
  .text._ZN4MX284readEiiiPc
-                0x00005d2c       0xbc LPC1768/dynamixel/MX28.o
-                0x00005d2c                MX28::read(int, int, int, char*)
+                0x00005d3c       0xbc LPC1768/dynamixel/MX28.o
+                0x00005d3c                MX28::read(int, int, int, char*)
  .text._ZN4MX285writeEiiiPci
-                0x00005de8       0xc8 LPC1768/dynamixel/MX28.o
-                0x00005de8                MX28::write(int, int, int, char*, int)
+                0x00005df8       0xc8 LPC1768/dynamixel/MX28.o
+                0x00005df8                MX28::write(int, int, int, char*, int)
  .text._ZN4MX287SetGoalEii
-                0x00005eb0       0x6c LPC1768/dynamixel/MX28.o
-                0x00005eb0                MX28::SetGoal(int, int)
+                0x00005ec0       0x6c LPC1768/dynamixel/MX28.o
+                0x00005ec0                MX28::SetGoal(int, int)
  .text._ZN4MX287SetModeEi
-                0x00005f1c       0x34 LPC1768/dynamixel/MX28.o
-                0x00005f1c                MX28::SetMode(int)
+                0x00005f2c       0x34 LPC1768/dynamixel/MX28.o
+                0x00005f2c                MX28::SetMode(int)
  .text._ZN4MX28C2E7PinNameS0_i
-                0x00005f50       0x2c LPC1768/dynamixel/MX28.o
-                0x00005f50                MX28::MX28(PinName, PinName, int)
-                0x00005f50                MX28::MX28(PinName, PinName, int)
- .text._start   0x00005f7c       0x28 LPC1768/gcc4mbed.o
-                0x00005f7c                _start
+                0x00005f60       0x2c LPC1768/dynamixel/MX28.o
+                0x00005f60                MX28::MX28(PinName, PinName, int)
+                0x00005f60                MX28::MX28(PinName, PinName, int)
+ .text._start   0x00005f8c       0x28 LPC1768/gcc4mbed.o
+                0x00005f8c                _start
  .text.__wrap__isatty
-                0x00005fa4        0xc LPC1768/gcc4mbed.o
-                0x00005fa4                __wrap__isatty
+                0x00005fb4        0xc LPC1768/gcc4mbed.o
+                0x00005fb4                __wrap__isatty
  .text.__wrap_malloc
-                0x00005fb0        0xc LPC1768/gcc4mbed.o
-                0x00005fb0                __wrap_malloc
+                0x00005fc0        0xc LPC1768/gcc4mbed.o
+                0x00005fc0                __wrap_malloc
  .text.__wrap_realloc
-                0x00005fbc        0xc LPC1768/gcc4mbed.o
-                0x00005fbc                __wrap_realloc
+                0x00005fcc        0xc LPC1768/gcc4mbed.o
+                0x00005fcc                __wrap_realloc
  .text.__wrap_free
-                0x00005fc8        0xc LPC1768/gcc4mbed.o
-                0x00005fc8                __wrap_free
- .text.abort    0x00005fd4        0x8 LPC1768/gcc4mbed.o
-                0x00005fd4                abort
+                0x00005fd8        0xc LPC1768/gcc4mbed.o
+                0x00005fd8                __wrap_free
+ .text.abort    0x00005fe4        0x8 LPC1768/gcc4mbed.o
+                0x00005fe4                abort
  .text.__cxa_pure_virtual
-                0x00005fdc        0x8 LPC1768/gcc4mbed.o
-                0x00005fdc                __cxa_pure_virtual
+                0x00005fec        0x8 LPC1768/gcc4mbed.o
+                0x00005fec                __cxa_pure_virtual
  .text._ZN3AjK9MODSERIAL6__getcEb
-                0x00005fe4       0x80 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(GETC.o)
-                0x00005fe4                AjK::MODSERIAL::__getc(bool)
+                0x00005ff4       0x80 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(GETC.o)
+                0x00005ff4                AjK::MODSERIAL::__getc(bool)
  .text._ZN3AjK9MODSERIAL6isr_rxEv
-                0x00006064      0x174 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(ISR_RX.o)
-                0x00006064                AjK::MODSERIAL::isr_rx()
+                0x00006074      0x174 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(ISR_RX.o)
+                0x00006074                AjK::MODSERIAL::isr_rx()
  .text._ZN3AjK9MODSERIALD2Ev
-                0x000061d8       0x68 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x000061d8                AjK::MODSERIAL::~MODSERIAL()
-                0x000061d8                AjK::MODSERIAL::~MODSERIAL()
+                0x000061e8       0x68 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x000061e8                AjK::MODSERIAL::~MODSERIAL()
+                0x000061e8                AjK::MODSERIAL::~MODSERIAL()
  .text._ZThn64_N3AjK9MODSERIALD1Ev
-                0x00006240        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x00006240                non-virtual thunk to AjK::MODSERIAL::~MODSERIAL()
+                0x00006250        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x00006250                non-virtual thunk to AjK::MODSERIAL::~MODSERIAL()
  .text._ZThn68_N3AjK9MODSERIALD1Ev
-                0x00006248        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x00006248                non-virtual thunk to AjK::MODSERIAL::~MODSERIAL()
+                0x00006258        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x00006258                non-virtual thunk to AjK::MODSERIAL::~MODSERIAL()
  .text._ZN3AjK9MODSERIALD0Ev
-                0x00006250       0x14 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x00006250                AjK::MODSERIAL::~MODSERIAL()
+                0x00006260       0x14 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x00006260                AjK::MODSERIAL::~MODSERIAL()
  .text._ZThn68_N3AjK9MODSERIALD0Ev
-                0x00006264        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x00006264                non-virtual thunk to AjK::MODSERIAL::~MODSERIAL()
+                0x00006274        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x00006274                non-virtual thunk to AjK::MODSERIAL::~MODSERIAL()
  .text._ZThn64_N3AjK9MODSERIALD0Ev
-                0x0000626c        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x0000626c                non-virtual thunk to AjK::MODSERIAL::~MODSERIAL()
+                0x0000627c        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x0000627c                non-virtual thunk to AjK::MODSERIAL::~MODSERIAL()
  .text._ZN3AjK9MODSERIAL5_getcEv
-                0x00006274       0x10 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x00006274                AjK::MODSERIAL::_getc()
-                0x0000627c                non-virtual thunk to AjK::MODSERIAL::_getc()
- .text._ZN3AjK9MODSERIAL5_putcEi
                 0x00006284       0x10 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x00006284                AjK::MODSERIAL::_putc(int)
-                0x0000628c                non-virtual thunk to AjK::MODSERIAL::_putc(int)
+                0x00006284                AjK::MODSERIAL::_getc()
+                0x0000628c                non-virtual thunk to AjK::MODSERIAL::_getc()
+ .text._ZN3AjK9MODSERIAL5_putcEi
+                0x00006294       0x10 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x00006294                AjK::MODSERIAL::_putc(int)
+                0x0000629c                non-virtual thunk to AjK::MODSERIAL::_putc(int)
  .text._ZN3AjK9MODSERIALC2E7PinNameS1_PKc
-                0x00006294       0x54 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x00006294                AjK::MODSERIAL::MODSERIAL(PinName, PinName, char const*)
-                0x00006294                AjK::MODSERIAL::MODSERIAL(PinName, PinName, char const*)
+                0x000062a4       0x54 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x000062a4                AjK::MODSERIAL::MODSERIAL(PinName, PinName, char const*)
+                0x000062a4                AjK::MODSERIAL::MODSERIAL(PinName, PinName, char const*)
  .text._ZN3AjK9MODSERIAL13rxBufferEmptyEv
-                0x000062e8        0xc /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x000062e8                AjK::MODSERIAL::rxBufferEmpty()
+                0x000062f8        0xc /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x000062f8                AjK::MODSERIAL::rxBufferEmpty()
  .text._ZN3AjK9MODSERIAL6__putcEib
-                0x000062f4      0x104 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(PUTC.o)
-                0x000062f4                AjK::MODSERIAL::__putc(int, bool)
+                0x00006304      0x104 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(PUTC.o)
+                0x00006304                AjK::MODSERIAL::__putc(int, bool)
  .text._ZN3ros16normalizeSecNSecERmS0_
-                0x000063f8       0x28 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(time.o)
-                0x000063f8                ros::normalizeSecNSec(unsigned long&, unsigned long&)
+                0x00006408       0x28 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(time.o)
+                0x00006408                ros::normalizeSecNSec(unsigned long&, unsigned long&)
  .text._ZN4mbed19FunctionPointerArg1IvvE12membercallerIN3AjK9MODSERIALEEEvPvPj
-                0x00006420       0x1c /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
-                0x00006420                void mbed::FunctionPointerArg1<void, void>::membercaller<AjK::MODSERIAL>(void*, unsigned int*)
+                0x00006430       0x1c /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
+                0x00006430                void mbed::FunctionPointerArg1<void, void>::membercaller<AjK::MODSERIAL>(void*, unsigned int*)
  .text._ZN3AjK9MODSERIAL6isr_txEv
-                0x0000643c        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
-                0x0000643c                AjK::MODSERIAL::isr_tx()
+                0x0000644c        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
+                0x0000644c                AjK::MODSERIAL::isr_tx()
  .text._ZN3AjK9MODSERIAL4initEii7PinName
-                0x00006444      0x108 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
-                0x00006444                AjK::MODSERIAL::init(int, int, PinName)
+                0x00006454      0x108 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
+                0x00006454                AjK::MODSERIAL::init(int, int, PinName)
  .text._ZN3AjK9MODSERIAL6isr_txEb
-                0x0000654c      0x138 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(ISR_TX.o)
-                0x0000654c                AjK::MODSERIAL::isr_tx(bool)
+                0x0000655c      0x138 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(ISR_TX.o)
+                0x0000655c                AjK::MODSERIAL::isr_tx(bool)
  .text._ZN3AjK9MODSERIAL7setBaseEv
-                0x00006684       0x58 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL_LPC1768.o)
-                0x00006684                AjK::MODSERIAL::setBase()
+                0x00006694       0x58 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL_LPC1768.o)
+                0x00006694                AjK::MODSERIAL::setBase()
  .text._ZN3AjK9MODSERIAL10initDeviceEv
-                0x000066dc        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL_LPC1768.o)
-                0x000066dc                AjK::MODSERIAL::initDevice()
+                0x000066ec        0x8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL_LPC1768.o)
+                0x000066ec                AjK::MODSERIAL::initDevice()
  .text.mbed_die
-                0x000066e4       0x74 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(board.o)
-                0x000066e4                mbed_die
- .text.error    0x00006758       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(error.o)
-                0x00006758                error
+                0x000066f4       0x74 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(board.o)
+                0x000066f4                mbed_die
+ .text.error    0x00006768       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(error.o)
+                0x00006768                error
  .text.gpio_init_in
-                0x0000677c       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio.o)
-                0x0000677c                gpio_init_in
+                0x0000678c       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio.o)
+                0x0000678c                gpio_init_in
  .text.gpio_init_out
-                0x000067a0       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio.o)
-                0x000067a0                gpio_init_out
+                0x000067b0       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio.o)
+                0x000067b0                gpio_init_out
  .text.gpio_init_out_ex
-                0x000067cc       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio.o)
-                0x000067cc                gpio_init_out_ex
+                0x000067dc       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio.o)
+                0x000067dc                gpio_init_out_ex
  .text.mbed_interface_connected
-                0x00006804        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(mbed_interface.o)
-                0x00006804                mbed_interface_connected
+                0x00006814        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(mbed_interface.o)
+                0x00006814                mbed_interface_connected
  .text.pinmap_pinout
-                0x00006808       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
-                0x00006808                pinmap_pinout
+                0x00006818       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
+                0x00006818                pinmap_pinout
  .text.pinmap_merge
-                0x00006854       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
-                0x00006854                pinmap_merge
+                0x00006864       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
+                0x00006864                pinmap_merge
  .text.pinmap_find_peripheral
-                0x00006878       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
-                0x00006878                pinmap_find_peripheral
+                0x00006888       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
+                0x00006888                pinmap_find_peripheral
  .text.pinmap_peripheral
-                0x00006898       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
-                0x00006898                pinmap_peripheral
+                0x000068a8       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
+                0x000068a8                pinmap_peripheral
  .text.semihost_exit
-                0x000068cc       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(semihost_api.o)
-                0x000068cc                semihost_exit
+                0x000068dc       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(semihost_api.o)
+                0x000068dc                semihost_exit
  .text.semihost_connected
-                0x000068e4       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(semihost_api.o)
-                0x000068e4                semihost_connected
+                0x000068f4       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(semihost_api.o)
+                0x000068f4                semihost_connected
  .text.ticker_irq_handler
-                0x000068f4       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(ticker_api.o)
-                0x000068f4                ticker_irq_handler
+                0x00006904       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(ticker_api.o)
+                0x00006904                ticker_irq_handler
  .text.ticker_read
-                0x00006940        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(ticker_api.o)
-                0x00006940                ticker_read
+                0x00006950        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(ticker_api.o)
+                0x00006950                ticker_read
  .text.get_us_ticker_data
-                0x00006948        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
-                0x00006948                get_us_ticker_data
+                0x00006958        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
+                0x00006958                get_us_ticker_data
  .text.us_ticker_irq_handler
-                0x00006950        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
-                0x00006950                us_ticker_irq_handler
- .text.wait_us  0x0000695c       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(wait_api.o)
-                0x0000695c                wait_us
- .text.wait     0x00006974       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(wait_api.o)
-                0x00006974                wait
- .text.wait_ms  0x0000698c        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(wait_api.o)
-                0x0000698c                wait_ms
+                0x00006960        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
+                0x00006960                us_ticker_irq_handler
+ .text.wait_us  0x0000696c       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(wait_api.o)
+                0x0000696c                wait_us
+ .text.wait     0x00006984       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(wait_api.o)
+                0x00006984                wait
+ .text.wait_ms  0x0000699c        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(wait_api.o)
+                0x0000699c                wait_ms
  .text.NVIC_SetVector
-                0x00006998       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(cmsis_nvic.o)
-                0x00006998                NVIC_SetVector
+                0x000069a8       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(cmsis_nvic.o)
+                0x000069a8                NVIC_SetVector
  .text.SystemInit
-                0x000069d4       0xb8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(system_LPC17xx.o)
-                0x000069d4                SystemInit
+                0x000069e4       0xb8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(system_LPC17xx.o)
+                0x000069e4                SystemInit
  .text.gpio_set
-                0x00006a8c       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
-                0x00006a8c                gpio_set
+                0x00006a9c       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
+                0x00006a9c                gpio_set
  .text.gpio_init
-                0x00006aa0       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
-                0x00006aa0                gpio_init
+                0x00006ab0       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
+                0x00006ab0                gpio_init
  .text.gpio_mode
-                0x00006adc        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
-                0x00006adc                gpio_mode
+                0x00006aec        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
+                0x00006aec                gpio_mode
  .text.gpio_dir
-                0x00006ae4       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
-                0x00006ae4                gpio_dir
+                0x00006af4       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
+                0x00006af4                gpio_dir
  .text.pin_function
-                0x00006b08       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap.o)
-                0x00006b08                pin_function
+                0x00006b18       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap.o)
+                0x00006b18                pin_function
  .text.pin_mode
-                0x00006b40       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap.o)
-                0x00006b40                pin_mode
+                0x00006b50       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap.o)
+                0x00006b50                pin_mode
  .text.uart2_irq
-                0x00006ba0       0x64 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x00006ba0                uart2_irq
+                0x00006bb0       0x64 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00006bb0                uart2_irq
  .text.serial_irq_set_internal
-                0x00006c04       0xc8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00006c14       0xc8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
  .text.uart3_irq
-                0x00006ccc       0x6c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x00006ccc                uart3_irq
+                0x00006cdc       0x6c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00006cdc                uart3_irq
  .text.uart0_irq
-                0x00006d38       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x00006d38                uart0_irq
+                0x00006d48       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00006d48                uart0_irq
  .text.uart1_irq
-                0x00006d98       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x00006d98                uart1_irq
+                0x00006da8       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00006da8                uart1_irq
  .text.serial_baud
-                0x00006df8      0x1d0 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x00006df8                serial_baud
+                0x00006e08      0x1d0 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00006e08                serial_baud
  .text.serial_irq_handler
-                0x00006fc8       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x00006fc8                serial_irq_handler
+                0x00006fd8       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00006fd8                serial_irq_handler
  .text.serial_irq_set
-                0x00006fe8       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x00006fe8                serial_irq_set
+                0x00006ff8       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00006ff8                serial_irq_set
  .text.serial_getc
-                0x0000700c       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x0000700c                serial_getc
+                0x0000701c       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x0000701c                serial_getc
  .text.serial_writable
-                0x00007040       0x5c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x00007040                serial_writable
+                0x00007050       0x5c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00007050                serial_writable
  .text.serial_putc
-                0x0000709c       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x0000709c                serial_putc
+                0x000070ac       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x000070ac                serial_putc
  .text.serial_pinout_tx
-                0x000070d0        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x000070d0                serial_pinout_tx
+                0x000070e0        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x000070e0                serial_pinout_tx
  .text.serial_set_flow_control
-                0x000070dc      0x128 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x000070dc                serial_set_flow_control
+                0x000070ec      0x128 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x000070ec                serial_set_flow_control
  .text.serial_init
-                0x00007204      0x194 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
-                0x00007204                serial_init
+                0x00007214      0x194 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x00007214                serial_init
  .text.us_ticker_init.part.0
-                0x00007398       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
+                0x000073a8       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
  .text.us_ticker_init
-                0x000073f8       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
-                0x000073f8                us_ticker_init
+                0x00007408       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
+                0x00007408                us_ticker_init
  .text.us_ticker_read
-                0x00007408       0x1c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
-                0x00007408                us_ticker_read
+                0x00007418       0x1c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
+                0x00007418                us_ticker_read
  .text.us_ticker_set_interrupt
-                0x00007424       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
-                0x00007424                us_ticker_set_interrupt
+                0x00007434       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
+                0x00007434                us_ticker_set_interrupt
  .text.us_ticker_disable_interrupt
-                0x00007438       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
-                0x00007438                us_ticker_disable_interrupt
+                0x00007448       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
+                0x00007448                us_ticker_disable_interrupt
  .text.us_ticker_clear_interrupt
-                0x00007448        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
-                0x00007448                us_ticker_clear_interrupt
+                0x00007458        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
+                0x00007458                us_ticker_clear_interrupt
  .text._ZN4mbed8FileBaseD2Ev
-                0x00007454       0x30 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
-                0x00007454                mbed::FileBase::~FileBase()
-                0x00007454                mbed::FileBase::~FileBase()
+                0x00007464       0x30 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
+                0x00007464                mbed::FileBase::~FileBase()
+                0x00007464                mbed::FileBase::~FileBase()
  .text._ZN4mbed8FileBaseD0Ev
-                0x00007484       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
-                0x00007484                mbed::FileBase::~FileBase()
+                0x00007494       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
+                0x00007494                mbed::FileBase::~FileBase()
  .text._ZN4mbed8FileBaseC2EPKcNS_8PathTypeE
-                0x000074c0       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
-                0x000074c0                mbed::FileBase::FileBase(char const*, mbed::PathType)
-                0x000074c0                mbed::FileBase::FileBase(char const*, mbed::PathType)
+                0x000074d0       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
+                0x000074d0                mbed::FileBase::FileBase(char const*, mbed::PathType)
+                0x000074d0                mbed::FileBase::FileBase(char const*, mbed::PathType)
  .text._ZN4mbed8FileBase6lookupEPKcj
-                0x000074e4       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
-                0x000074e4                mbed::FileBase::lookup(char const*, unsigned int)
+                0x000074f4       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
+                0x000074f4                mbed::FileBase::lookup(char const*, unsigned int)
  .text._ZN4mbed8FileBase11getPathTypeEv
-                0x00007518        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
-                0x00007518                mbed::FileBase::getPathType()
+                0x00007528        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
+                0x00007528                mbed::FileBase::getPathType()
  .text._ZN4mbed10FileHandle4flenEv
-                0x0000751c       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
-                0x0000751c                mbed::FileHandle::flen()
+                0x0000752c       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
+                0x0000752c                mbed::FileHandle::flen()
  .text._ZN4mbed8FileLikeC2EPKc
-                0x00007554       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
-                0x00007554                mbed::FileLike::FileLike(char const*)
-                0x00007554                mbed::FileLike::FileLike(char const*)
+                0x00007564       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
+                0x00007564                mbed::FileLike::FileLike(char const*)
+                0x00007564                mbed::FileLike::FileLike(char const*)
  .text._ZN4mbed8FileLikeD2Ev
-                0x0000757c       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
-                0x0000757c                mbed::FileLike::~FileLike()
-                0x0000757c                mbed::FileLike::~FileLike()
+                0x0000758c       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
+                0x0000758c                mbed::FileLike::~FileLike()
+                0x0000758c                mbed::FileLike::~FileLike()
  .text._ZN4mbed8FilePathC2EPKc
-                0x000075a0       0x54 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
-                0x000075a0                mbed::FilePath::FilePath(char const*)
-                0x000075a0                mbed::FilePath::FilePath(char const*)
+                0x000075b0       0x54 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
+                0x000075b0                mbed::FilePath::FilePath(char const*)
+                0x000075b0                mbed::FilePath::FilePath(char const*)
  .text._ZN4mbed8FilePath8fileNameEv
-                0x000075f4        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
-                0x000075f4                mbed::FilePath::fileName()
+                0x00007604        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
+                0x00007604                mbed::FilePath::fileName()
  .text._ZN4mbed8FilePath10fileSystemEv
-                0x000075f8       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
-                0x000075f8                mbed::FilePath::fileSystem()
+                0x00007608       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
+                0x00007608                mbed::FilePath::fileSystem()
  .text._ZN4mbed8FilePath6isFileEv
-                0x00007618       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
-                0x00007618                mbed::FilePath::isFile()
+                0x00007628       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
+                0x00007628                mbed::FilePath::isFile()
  .text._ZN4mbed8FilePath4fileEv
-                0x0000762c       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
-                0x0000762c                mbed::FilePath::file()
+                0x0000763c       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
+                0x0000763c                mbed::FilePath::file()
  .text._ZN4mbed8FilePath6existsEv
-                0x0000764c        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
-                0x0000764c                mbed::FilePath::exists()
+                0x0000765c        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
+                0x0000765c                mbed::FilePath::exists()
  .text._ZN4mbed6Serial5_getcEv
-                0x00007658        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
-                0x00007658                mbed::Serial::_getc()
+                0x00007668        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
+                0x00007668                mbed::Serial::_getc()
  .text._ZThn64_N4mbed6Serial5_getcEv
-                0x0000765c        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
-                0x0000765c                non-virtual thunk to mbed::Serial::_getc()
+                0x0000766c        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
+                0x0000766c                non-virtual thunk to mbed::Serial::_getc()
  .text._ZN4mbed6Serial5_putcEi
-                0x00007664        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
-                0x00007664                mbed::Serial::_putc(int)
+                0x00007674        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
+                0x00007674                mbed::Serial::_putc(int)
  .text._ZThn64_N4mbed6Serial5_putcEi
-                0x00007668        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
-                0x00007668                non-virtual thunk to mbed::Serial::_putc(int)
+                0x00007678        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
+                0x00007678                non-virtual thunk to mbed::Serial::_putc(int)
  .text._ZN4mbed6SerialC2E7PinNameS1_PKc
-                0x00007670       0x30 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
-                0x00007670                mbed::Serial::Serial(PinName, PinName, char const*)
-                0x00007670                mbed::Serial::Serial(PinName, PinName, char const*)
+                0x00007680       0x30 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
+                0x00007680                mbed::Serial::Serial(PinName, PinName, char const*)
+                0x00007680                mbed::Serial::Serial(PinName, PinName, char const*)
  .text._ZN4mbed10SerialBase12_irq_handlerEm9SerialIrq
-                0x000076a0       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
-                0x000076a0                mbed::SerialBase::_irq_handler(unsigned long, SerialIrq)
+                0x000076b0       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
+                0x000076b0                mbed::SerialBase::_irq_handler(unsigned long, SerialIrq)
  .text._ZN4mbed10SerialBaseC2E7PinNameS1_
-                0x000076d4       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
-                0x000076d4                mbed::SerialBase::SerialBase(PinName, PinName)
-                0x000076d4                mbed::SerialBase::SerialBase(PinName, PinName)
+                0x000076e4       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
+                0x000076e4                mbed::SerialBase::SerialBase(PinName, PinName)
+                0x000076e4                mbed::SerialBase::SerialBase(PinName, PinName)
  .text._ZN4mbed10SerialBase4baudEi
-                0x00007710       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
-                0x00007710                mbed::SerialBase::baud(int)
+                0x00007720       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
+                0x00007720                mbed::SerialBase::baud(int)
  .text._ZN4mbed10SerialBase10_base_getcEv
-                0x00007720        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
-                0x00007720                mbed::SerialBase::_base_getc()
+                0x00007730        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
+                0x00007730                mbed::SerialBase::_base_getc()
  .text._ZN4mbed10SerialBase10_base_putcEi
-                0x00007728       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
-                0x00007728                mbed::SerialBase::_base_putc(int)
+                0x00007738       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
+                0x00007738                mbed::SerialBase::_base_putc(int)
  .text._ZN4mbed6Stream5writeEPKvj
-                0x00007738       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x00007738                mbed::Stream::write(void const*, unsigned int)
+                0x00007748       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x00007748                mbed::Stream::write(void const*, unsigned int)
  .text._ZN4mbed6Stream4readEPvj
-                0x00007764       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x00007764                mbed::Stream::read(void*, unsigned int)
+                0x00007774       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x00007774                mbed::Stream::read(void*, unsigned int)
  .text._ZN4mbed6Stream5lseekEli
-                0x00007790        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x00007790                mbed::Stream::lseek(long, int)
+                0x000077a0        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x000077a0                mbed::Stream::lseek(long, int)
  .text._ZN4mbed6Stream5fsyncEv
-                0x00007794        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x00007794                mbed::Stream::close()
-                0x00007794                mbed::Stream::isatty()
-                0x00007794                mbed::Stream::fsync()
+                0x000077a4        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x000077a4                mbed::Stream::close()
+                0x000077a4                mbed::Stream::isatty()
+                0x000077a4                mbed::Stream::fsync()
  .text._ZN4mbed6Stream4flenEv
-                0x00007798        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x00007798                mbed::Stream::flen()
+                0x000077a8        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x000077a8                mbed::Stream::flen()
  .text._ZN4mbed6StreamC2EPKc
-                0x0000779c       0x44 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x0000779c                mbed::Stream::Stream(char const*)
-                0x0000779c                mbed::Stream::Stream(char const*)
+                0x000077ac       0x44 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x000077ac                mbed::Stream::Stream(char const*)
+                0x000077ac                mbed::Stream::Stream(char const*)
  .text._ZN4mbed6StreamD2Ev
-                0x000077e0       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x000077e0                mbed::Stream::~Stream()
-                0x000077e0                mbed::Stream::~Stream()
+                0x000077f0       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x000077f0                mbed::Stream::~Stream()
+                0x000077f0                mbed::Stream::~Stream()
  .text._ZN4mbed6Stream4putcEi
-                0x00007804       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x00007804                mbed::Stream::putc(int)
+                0x00007814       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x00007814                mbed::Stream::putc(int)
  .text._ZN4mbed6Stream4getcEv
-                0x0000781c       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x0000781c                mbed::Stream::getc()
+                0x0000782c       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x0000782c                mbed::Stream::getc()
  .text._ZN4mbed5Timer9slicetimeEv.part.0
-                0x00007830       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
+                0x00007840       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
  .text._ZN4mbed5TimerC2Ev
-                0x00007840       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
-                0x00007840                mbed::Timer::Timer()
-                0x00007840                mbed::Timer::Timer()
+                0x00007850       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
+                0x00007850                mbed::Timer::Timer()
+                0x00007850                mbed::Timer::Timer()
  .text._ZN4mbed5Timer5startEv
-                0x00007860       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
-                0x00007860                mbed::Timer::start()
+                0x00007870       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
+                0x00007870                mbed::Timer::start()
  .text._ZN4mbed5Timer7read_msEv
-                0x00007878       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
-                0x00007878                mbed::Timer::read_ms()
+                0x00007888       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
+                0x00007888                mbed::Timer::read_ms()
  .text._ZL11init_serialv.part.0
-                0x0000789c       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x000078ac       0x18 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
  .text._ZN4mbed10FileHandleD2Ev
-                0x000078b4       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x000078b4                mbed::FileHandle::~FileHandle()
-                0x000078b4                mbed::FileHandle::~FileHandle()
- .text._open    0x000078dc      0x100 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x000078dc                _open
- .text._close   0x000079dc       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x000079dc                _close
- .text._write   0x00007a04       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007a04                _write
- .text._read    0x00007a50       0x44 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007a50                _read
- .text._isatty  0x00007a94       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007a94                _isatty
- .text._lseek   0x00007ab8       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007ab8                _lseek
- .text._fstat   0x00007adc       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007adc                _fstat
+                0x000078c4       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x000078c4                mbed::FileHandle::~FileHandle()
+                0x000078c4                mbed::FileHandle::~FileHandle()
+ .text._open    0x000078ec      0x100 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x000078ec                _open
+ .text._close   0x000079ec       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x000079ec                _close
+ .text._write   0x00007a14       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007a14                _write
+ .text._read    0x00007a60       0x44 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007a60                _read
+ .text._isatty  0x00007aa4       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007aa4                _isatty
+ .text._lseek   0x00007ac8       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007ac8                _lseek
+ .text._fstat   0x00007aec       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007aec                _fstat
  .text.mbed_main
-                0x00007afc        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007afc                mbed_main
+                0x00007b0c        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007b0c                mbed_main
  .text.mbed_sdk_init
-                0x00007b00        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007b00                mbed_sdk_init
+                0x00007b10        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007b10                mbed_sdk_init
  .text.__wrap_main
-                0x00007b04       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007b04                __wrap_main
- .text._sbrk    0x00007b18       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007b18                _sbrk
- .text._exit    0x00007b40       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007b40                _exit
+                0x00007b14       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007b14                __wrap_main
+ .text._sbrk    0x00007b28       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007b28                _sbrk
+ .text._exit    0x00007b50       0x34 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007b50                _exit
  .text._ZN4mbed26mbed_set_unbuffered_streamEP7__sFILE
-                0x00007b74        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007b74                mbed::mbed_set_unbuffered_stream(__sFILE*)
+                0x00007b84        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007b84                mbed::mbed_set_unbuffered_stream(__sFILE*)
  .text._ZN4mbed9mbed_getcEP7__sFILE
-                0x00007b7c        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x00007b7c                mbed::mbed_getc(__sFILE*)
- .text          0x00007b80       0x44 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(startup_LPC17xx.o)
-                0x00007b80                Reset_Handler
-                0x00007bb0                NMI_Handler
-                0x00007bb2                HardFault_Handler
-                0x00007bb4                MemManage_Handler
-                0x00007bb6                BusFault_Handler
-                0x00007bb8                UsageFault_Handler
-                0x00007bba                SVC_Handler
-                0x00007bbc                DebugMon_Handler
-                0x00007bbe                PendSV_Handler
-                0x00007bc0                SysTick_Handler
-                0x00007bc2                TIMER2_IRQHandler
-                0x00007bc2                RIT_IRQHandler
-                0x00007bc2                I2C0_IRQHandler
-                0x00007bc2                USBActivity_IRQHandler
-                0x00007bc2                PWM1_IRQHandler
-                0x00007bc2                I2C1_IRQHandler
-                0x00007bc2                EINT2_IRQHandler
-                0x00007bc2                UART1_IRQHandler
-                0x00007bc2                EINT3_IRQHandler
-                0x00007bc2                CANActivity_IRQHandler
-                0x00007bc2                TIMER3_IRQHandler
-                0x00007bc2                UART0_IRQHandler
-                0x00007bc2                PLL0_IRQHandler
-                0x00007bc2                CAN_IRQHandler
-                0x00007bc2                PLL1_IRQHandler
-                0x00007bc2                SSP0_IRQHandler
-                0x00007bc2                I2S_IRQHandler
-                0x00007bc2                I2C2_IRQHandler
-                0x00007bc2                RTC_IRQHandler
-                0x00007bc2                TIMER0_IRQHandler
-                0x00007bc2                SPI_IRQHandler
-                0x00007bc2                EINT1_IRQHandler
-                0x00007bc2                TIMER1_IRQHandler
-                0x00007bc2                UART2_IRQHandler
-                0x00007bc2                Default_Handler
-                0x00007bc2                ADC_IRQHandler
-                0x00007bc2                SSP1_IRQHandler
-                0x00007bc2                USB_IRQHandler
-                0x00007bc2                BOD_IRQHandler
-                0x00007bc2                WDT_IRQHandler
-                0x00007bc2                QEI_IRQHandler
-                0x00007bc2                EINT0_IRQHandler
-                0x00007bc2                DEF_IRQHandler
-                0x00007bc2                DMA_IRQHandler
-                0x00007bc2                UART3_IRQHandler
-                0x00007bc2                MCPWM_IRQHandler
-                0x00007bc2                ENET_IRQHandler
+                0x00007b8c        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x00007b8c                mbed::mbed_getc(__sFILE*)
+ .text          0x00007b90       0x44 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(startup_LPC17xx.o)
+                0x00007b90                Reset_Handler
+                0x00007bc0                NMI_Handler
+                0x00007bc2                HardFault_Handler
+                0x00007bc4                MemManage_Handler
+                0x00007bc6                BusFault_Handler
+                0x00007bc8                UsageFault_Handler
+                0x00007bca                SVC_Handler
+                0x00007bcc                DebugMon_Handler
+                0x00007bce                PendSV_Handler
+                0x00007bd0                SysTick_Handler
+                0x00007bd2                TIMER2_IRQHandler
+                0x00007bd2                RIT_IRQHandler
+                0x00007bd2                I2C0_IRQHandler
+                0x00007bd2                USBActivity_IRQHandler
+                0x00007bd2                PWM1_IRQHandler
+                0x00007bd2                I2C1_IRQHandler
+                0x00007bd2                EINT2_IRQHandler
+                0x00007bd2                UART1_IRQHandler
+                0x00007bd2                EINT3_IRQHandler
+                0x00007bd2                CANActivity_IRQHandler
+                0x00007bd2                TIMER3_IRQHandler
+                0x00007bd2                UART0_IRQHandler
+                0x00007bd2                PLL0_IRQHandler
+                0x00007bd2                CAN_IRQHandler
+                0x00007bd2                PLL1_IRQHandler
+                0x00007bd2                SSP0_IRQHandler
+                0x00007bd2                I2S_IRQHandler
+                0x00007bd2                I2C2_IRQHandler
+                0x00007bd2                RTC_IRQHandler
+                0x00007bd2                TIMER0_IRQHandler
+                0x00007bd2                SPI_IRQHandler
+                0x00007bd2                EINT1_IRQHandler
+                0x00007bd2                TIMER1_IRQHandler
+                0x00007bd2                UART2_IRQHandler
+                0x00007bd2                Default_Handler
+                0x00007bd2                ADC_IRQHandler
+                0x00007bd2                SSP1_IRQHandler
+                0x00007bd2                USB_IRQHandler
+                0x00007bd2                BOD_IRQHandler
+                0x00007bd2                WDT_IRQHandler
+                0x00007bd2                QEI_IRQHandler
+                0x00007bd2                EINT0_IRQHandler
+                0x00007bd2                DEF_IRQHandler
+                0x00007bd2                DMA_IRQHandler
+                0x00007bd2                UART3_IRQHandler
+                0x00007bd2                MCPWM_IRQHandler
+                0x00007bd2                ENET_IRQHandler
  .text.__aeabi_atexit
-                0x00007bc4        0xa /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libstdc++_nano.a(atexit_arm.o)
-                0x00007bc4                __aeabi_atexit
- .text._ZdlPv   0x00007bce        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libstdc++_nano.a(del_op.o)
-                0x00007bce                operator delete(void*)
- .text._Znwj    0x00007bd2       0x22 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libstdc++_nano.a(new_op.o)
-                0x00007bd2                operator new(unsigned int)
+                0x00007bd4        0xa /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libstdc++_nano.a(atexit_arm.o)
+                0x00007bd4                __aeabi_atexit
+ .text._ZdlPv   0x00007bde        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libstdc++_nano.a(del_op.o)
+                0x00007bde                operator delete(void*)
+ .text._Znwj    0x00007be2       0x22 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libstdc++_nano.a(new_op.o)
+                0x00007be2                operator new(unsigned int)
  .text._ZSt15get_new_handlerv
-                0x00007bf4       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libstdc++_nano.a(new_handler.o)
-                0x00007bf4                std::get_new_handler()
- .text          0x00007c04      0x370 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_addsubdf3.o)
-                0x00007c04                __aeabi_drsub
-                0x00007c0c                __aeabi_dsub
-                0x00007c0c                __subdf3
-                0x00007c10                __adddf3
-                0x00007c10                __aeabi_dadd
-                0x00007e88                __aeabi_ui2d
-                0x00007e88                __floatunsidf
-                0x00007ea8                __floatsidf
-                0x00007ea8                __aeabi_i2d
-                0x00007ecc                __extendsfdf2
-                0x00007ecc                __aeabi_f2d
-                0x00007f08                __aeabi_ul2d
-                0x00007f08                __floatundidf
-                0x00007f18                __floatdidf
-                0x00007f18                __aeabi_l2d
- .text          0x00007f74      0x424 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_muldivdf3.o)
-                0x00007f74                __aeabi_dmul
-                0x00007f74                __muldf3
-                0x000081c8                __aeabi_ddiv
-                0x000081c8                __divdf3
- .text          0x00008398       0x50 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_fixdfsi.o)
-                0x00008398                __fixdfsi
-                0x00008398                __aeabi_d2iz
- .text          0x000083e8       0xa0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_truncdfsf2.o)
-                0x000083e8                __aeabi_d2f
-                0x000083e8                __truncdfsf2
- .text          0x00008488      0x21c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_addsubsf3.o)
-                0x00008488                __aeabi_frsub
-                0x00008490                __subsf3
-                0x00008490                __aeabi_fsub
-                0x00008494                __aeabi_fadd
-                0x00008494                __addsf3
-                0x000085f4                __aeabi_ui2f
-                0x000085f4                __floatunsisf
-                0x000085fc                __aeabi_i2f
-                0x000085fc                __floatsisf
-                0x00008618                __floatundisf
-                0x00008618                __aeabi_ul2f
-                0x00008628                __floatdisf
-                0x00008628                __aeabi_l2f
- .text          0x000086a4      0x2a0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_muldivsf3.o)
-                0x000086a4                __mulsf3
-                0x000086a4                __aeabi_fmul
-                0x0000880c                __divsf3
-                0x0000880c                __aeabi_fdiv
- .text          0x00008944       0xec /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_cmpsf2.o)
-                0x00008944                __gtsf2
-                0x00008944                __gesf2
-                0x0000894c                __lesf2
-                0x0000894c                __ltsf2
-                0x00008954                __nesf2
-                0x00008954                __eqsf2
-                0x00008954                __cmpsf2
-                0x000089b4                __aeabi_cfrcmple
-                0x000089bc                __aeabi_cfcmple
-                0x000089bc                __aeabi_cfcmpeq
-                0x000089cc                __aeabi_fcmpeq
-                0x000089e0                __aeabi_fcmplt
-                0x000089f4                __aeabi_fcmple
-                0x00008a08                __aeabi_fcmpge
-                0x00008a1c                __aeabi_fcmpgt
- .text          0x00008a30       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_fixsfsi.o)
-                0x00008a30                __fixsfsi
-                0x00008a30                __aeabi_f2iz
+                0x00007c04       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libstdc++_nano.a(new_handler.o)
+                0x00007c04                std::get_new_handler()
+ .text          0x00007c14      0x370 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_addsubdf3.o)
+                0x00007c14                __aeabi_drsub
+                0x00007c1c                __aeabi_dsub
+                0x00007c1c                __subdf3
+                0x00007c20                __adddf3
+                0x00007c20                __aeabi_dadd
+                0x00007e98                __aeabi_ui2d
+                0x00007e98                __floatunsidf
+                0x00007eb8                __floatsidf
+                0x00007eb8                __aeabi_i2d
+                0x00007edc                __extendsfdf2
+                0x00007edc                __aeabi_f2d
+                0x00007f18                __aeabi_ul2d
+                0x00007f18                __floatundidf
+                0x00007f28                __floatdidf
+                0x00007f28                __aeabi_l2d
+ .text          0x00007f84      0x424 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_muldivdf3.o)
+                0x00007f84                __aeabi_dmul
+                0x00007f84                __muldf3
+                0x000081d8                __aeabi_ddiv
+                0x000081d8                __divdf3
+ .text          0x000083a8       0x50 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_fixdfsi.o)
+                0x000083a8                __fixdfsi
+                0x000083a8                __aeabi_d2iz
+ .text          0x000083f8       0xa0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_truncdfsf2.o)
+                0x000083f8                __aeabi_d2f
+                0x000083f8                __truncdfsf2
+ .text          0x00008498      0x21c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_addsubsf3.o)
+                0x00008498                __aeabi_frsub
+                0x000084a0                __subsf3
+                0x000084a0                __aeabi_fsub
+                0x000084a4                __aeabi_fadd
+                0x000084a4                __addsf3
+                0x00008604                __aeabi_ui2f
+                0x00008604                __floatunsisf
+                0x0000860c                __aeabi_i2f
+                0x0000860c                __floatsisf
+                0x00008628                __floatundisf
+                0x00008628                __aeabi_ul2f
+                0x00008638                __floatdisf
+                0x00008638                __aeabi_l2f
+ .text          0x000086b4      0x2a0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_muldivsf3.o)
+                0x000086b4                __mulsf3
+                0x000086b4                __aeabi_fmul
+                0x0000881c                __divsf3
+                0x0000881c                __aeabi_fdiv
+ .text          0x00008954       0xec /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_cmpsf2.o)
+                0x00008954                __gtsf2
+                0x00008954                __gesf2
+                0x0000895c                __lesf2
+                0x0000895c                __ltsf2
+                0x00008964                __nesf2
+                0x00008964                __eqsf2
+                0x00008964                __cmpsf2
+                0x000089c4                __aeabi_cfrcmple
+                0x000089cc                __aeabi_cfcmple
+                0x000089cc                __aeabi_cfcmpeq
+                0x000089dc                __aeabi_fcmpeq
+                0x000089f0                __aeabi_fcmplt
+                0x00008a04                __aeabi_fcmple
+                0x00008a18                __aeabi_fcmpge
+                0x00008a2c                __aeabi_fcmpgt
+ .text          0x00008a40       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libgcc.a(_arm_fixsfsi.o)
+                0x00008a40                __fixsfsi
+                0x00008a40                __aeabi_f2iz
  .text.__cxa_atexit
-                0x00008a7c       0x1c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-cxa_atexit.o)
-                0x00008a7c                __cxa_atexit
- .text.__errno  0x00008a98        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
-                0x00008a98                __errno
- .text.exit     0x00008aa4       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o)
-                0x00008aa4                exit
+                0x00008a8c       0x1c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-cxa_atexit.o)
+                0x00008a8c                __cxa_atexit
+ .text.__errno  0x00008aa8        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+                0x00008aa8                __errno
+ .text.exit     0x00008ab4       0x28 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o)
+                0x00008ab4                exit
  .text._fclose_r
-                0x00008acc       0xa4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fclose.o)
-                0x00008acc                _fclose_r
- .text.fclose   0x00008b70       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fclose.o)
-                0x00008b70                fclose
+                0x00008adc       0xa4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fclose.o)
+                0x00008adc                _fclose_r
+ .text.fclose   0x00008b80       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fclose.o)
+                0x00008b80                fclose
  .text.__sflush_r
-                0x00008b80      0x10c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fflush.o)
-                0x00008b80                __sflush_r
+                0x00008b90      0x10c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fflush.o)
+                0x00008b90                __sflush_r
  .text._fflush_r
-                0x00008c8c       0x54 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fflush.o)
-                0x00008c8c                _fflush_r
- .text.fflush   0x00008ce0       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fflush.o)
-                0x00008ce0                fflush
+                0x00008c9c       0x54 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fflush.o)
+                0x00008c9c                _fflush_r
+ .text.fflush   0x00008cf0       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fflush.o)
+                0x00008cf0                fflush
  .text._fgetc_r
-                0x00008d04       0x58 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fgetc.o)
-                0x00008d04                _fgetc_r
- .text.fgetc    0x00008d5c       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fgetc.o)
-                0x00008d5c                fgetc
+                0x00008d14       0x58 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fgetc.o)
+                0x00008d14                _fgetc_r
+ .text.fgetc    0x00008d6c       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fgetc.o)
+                0x00008d6c                fgetc
  .text._cleanup_r
-                0x00008d6c        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x00008d6c                _cleanup_r
+                0x00008d7c        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00008d7c                _cleanup_r
  .text.std.isra.0
-                0x00008d78       0x48 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00008d88       0x48 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
  .text.__sfmoreglue
-                0x00008dc0       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x00008dc0                __sfmoreglue
- .text.__sinit  0x00008dec       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x00008dec                __sinit
- .text.__sfp    0x00008e4c       0x78 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x00008e4c                __sfp
+                0x00008dd0       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00008dd0                __sfmoreglue
+ .text.__sinit  0x00008dfc       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00008dfc                __sinit
+ .text.__sfp    0x00008e5c       0x78 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00008e5c                __sfp
  .text.__sfp_lock_acquire
-                0x00008ec4        0x2 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x00008ec4                __sfp_lock_acquire
+                0x00008ed4        0x2 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00008ed4                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x00008ec6        0x2 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x00008ec6                __sfp_lock_release
+                0x00008ed6        0x2 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00008ed6                __sfp_lock_release
  .text._fopen_r
-                0x00008ec8       0x80 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fopen.o)
-                0x00008ec8                _fopen_r
- .text.fopen    0x00008f48       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fopen.o)
-                0x00008f48                fopen
+                0x00008ed8       0x80 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fopen.o)
+                0x00008ed8                _fopen_r
+ .text.fopen    0x00008f58       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fopen.o)
+                0x00008f58                fopen
  .text._fputc_r
-                0x00008f58       0x48 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fputc.o)
-                0x00008f58                _fputc_r
- .text.fputc    0x00008fa0       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fputc.o)
-                0x00008fa0                fputc
+                0x00008f68       0x48 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fputc.o)
+                0x00008f68                _fputc_r
+ .text.fputc    0x00008fb0       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fputc.o)
+                0x00008fb0                fputc
  .text._fseek_r
-                0x00008fb0        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fseek.o)
-                0x00008fb0                _fseek_r
+                0x00008fc0        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fseek.o)
+                0x00008fc0                _fseek_r
  .text._fseeko_r
-                0x00008fb4      0x118 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fseeko.o)
-                0x00008fb4                _fseeko_r
- .text._fwalk   0x000090cc       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fwalk.o)
-                0x000090cc                _fwalk
+                0x00008fc4      0x118 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fseeko.o)
+                0x00008fc4                _fseeko_r
+ .text._fwalk   0x000090dc       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fwalk.o)
+                0x000090dc                _fwalk
  .text._fwalk_reent
-                0x00009104       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fwalk.o)
-                0x00009104                _fwalk_reent
+                0x00009114       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fwalk.o)
+                0x00009114                _fwalk_reent
  .text.__libc_init_array
-                0x00009140       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-init.o)
-                0x00009140                __libc_init_array
+                0x00009150       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-init.o)
+                0x00009150                __libc_init_array
  .text.__smakebuf_r
-                0x0000918c       0x98 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-makebuf.o)
-                0x0000918c                __smakebuf_r
- .text.malloc   0x00009224       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
-                0x00009224                malloc
- .text.free     0x00009234       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
-                0x00009234                free
- .text.memchr   0x00009244       0x1c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memchr-stub.o)
-                0x00009244                memchr
- .text.memcpy   0x00009260       0x16 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy-stub.o)
-                0x00009260                memcpy
- .text.memmove  0x00009276       0x36 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memmove.o)
-                0x00009276                memmove
- .text.memset   0x000092ac       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memset.o)
-                0x000092ac                memset
- .text._free_r  0x000092bc       0x88 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o)
-                0x000092bc                _free_r
+                0x0000919c       0x98 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-makebuf.o)
+                0x0000919c                __smakebuf_r
+ .text.malloc   0x00009234       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+                0x00009234                malloc
+ .text.free     0x00009244       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+                0x00009244                free
+ .text.memchr   0x00009254       0x1c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memchr-stub.o)
+                0x00009254                memchr
+ .text.memcpy   0x00009270       0x16 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy-stub.o)
+                0x00009270                memcpy
+ .text.memmove  0x00009286       0x36 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memmove.o)
+                0x00009286                memmove
+ .text.memset   0x000092bc       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memset.o)
+                0x000092bc                memset
+ .text._free_r  0x000092cc       0x88 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o)
+                0x000092cc                _free_r
  .text._malloc_r
-                0x00009344       0xa8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
-                0x00009344                _malloc_r
+                0x00009354       0xa8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00009354                _malloc_r
  .text.__sfputc_r
-                0x000093ec       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x000093fc       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x00009418       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x00009418                __sfputs_r
+                0x00009428       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00009428                __sfputs_r
  .text._vfprintf_r
-                0x0000943c      0x238 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000943c                _vfiprintf_r
-                0x0000943c                _vfprintf_r
+                0x0000944c      0x238 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000944c                _vfiprintf_r
+                0x0000944c                _vfprintf_r
  .text.vfprintf
-                0x00009674       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x00009674                vfiprintf
-                0x00009674                vfprintf
+                0x00009684       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00009684                vfiprintf
+                0x00009684                vfprintf
  .text._printf_common
-                0x00009688       0xec /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00009688                _printf_common
+                0x00009698       0xec /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00009698                _printf_common
  .text._printf_i
-                0x00009774      0x24c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00009774                _printf_i
+                0x00009784      0x24c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00009784                _printf_i
  .text._scanf_chars
-                0x000099c0       0xcc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
-                0x000099c0                _scanf_chars
+                0x000099d0       0xcc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x000099d0                _scanf_chars
  .text._scanf_i
-                0x00009a8c      0x1e4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
-                0x00009a8c                _scanf_i
- .text._open_r  0x00009c70       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-openr.o)
-                0x00009c70                _open_r
- .text._putc_r  0x00009c94       0x78 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-putc.o)
-                0x00009c94                _putc_r
- .text.realloc  0x00009d0c       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-realloc.o)
-                0x00009d0c                realloc
- .text.lflush   0x00009d1c       0x12 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-refill.o)
- *fill*         0x00009d2e        0x2 
+                0x00009a9c      0x1e4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x00009a9c                _scanf_i
+ .text._open_r  0x00009c80       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-openr.o)
+                0x00009c80                _open_r
+ .text._putc_r  0x00009ca4       0x78 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-putc.o)
+                0x00009ca4                _putc_r
+ .text.realloc  0x00009d1c       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-realloc.o)
+                0x00009d1c                realloc
+ .text.lflush   0x00009d2c       0x12 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-refill.o)
+ *fill*         0x00009d3e        0x2 
  .text.__srefill_r
-                0x00009d30      0x10c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-refill.o)
-                0x00009d30                __srefill_r
+                0x00009d40      0x10c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-refill.o)
+                0x00009d40                __srefill_r
  .text.__srget_r
-                0x00009e3c       0x58 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-rget.o)
-                0x00009e3c                __srget_r
- .text._sbrk_r  0x00009e94       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o)
-                0x00009e94                _sbrk_r
- .text.__sccl   0x00009eb4       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sccl.o)
-                0x00009eb4                __sccl
- .text.setbuf   0x00009f14       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-setbuf.o)
-                0x00009f14                setbuf
- .text.setvbuf  0x00009f24      0x110 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-setvbuf.o)
-                0x00009f24                setvbuf
- .text.sprintf  0x0000a034       0x48 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sprintf.o)
-                0x0000a034                sprintf
-                0x0000a034                siprintf
- .text.sscanf   0x0000a07c       0x54 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sscanf.o)
-                0x0000a07c                sscanf
-                0x0000a07c                siscanf
- .text.__sread  0x0000a0d0       0x22 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
-                0x0000a0d0                __sread
+                0x00009e4c       0x58 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-rget.o)
+                0x00009e4c                __srget_r
+ .text._sbrk_r  0x00009ea4       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o)
+                0x00009ea4                _sbrk_r
+ .text.__sccl   0x00009ec4       0x60 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sccl.o)
+                0x00009ec4                __sccl
+ .text.setbuf   0x00009f24       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-setbuf.o)
+                0x00009f24                setbuf
+ .text.setvbuf  0x00009f34      0x110 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-setvbuf.o)
+                0x00009f34                setvbuf
+ .text.sprintf  0x0000a044       0x48 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sprintf.o)
+                0x0000a044                sprintf
+                0x0000a044                siprintf
+ .text.sscanf   0x0000a08c       0x54 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sscanf.o)
+                0x0000a08c                sscanf
+                0x0000a08c                siscanf
+ .text.__sread  0x0000a0e0       0x22 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
+                0x0000a0e0                __sread
  .text.__seofread
-                0x0000a0f2        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
-                0x0000a0f2                __seofread
+                0x0000a102        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
+                0x0000a102                __seofread
  .text.__swrite
-                0x0000a0f6       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
-                0x0000a0f6                __swrite
- .text.__sseek  0x0000a12e       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
-                0x0000a12e                __sseek
+                0x0000a106       0x38 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
+                0x0000a106                __swrite
+ .text.__sseek  0x0000a13e       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
+                0x0000a13e                __sseek
  .text.__sclose
-                0x0000a152        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
-                0x0000a152                __sclose
- .text          0x0000a15a       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strcmp.o)
-                0x0000a15a                strcmp
- .text          0x0000a16e       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strlen.o)
-                0x0000a16e                strlen
- .text.strncmp  0x0000a17e       0x2a /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strncmp.o)
-                0x0000a17e                strncmp
+                0x0000a162        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-stdio.o)
+                0x0000a162                __sclose
+ .text          0x0000a16a       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strcmp.o)
+                0x0000a16a                strcmp
+ .text          0x0000a17e       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strlen.o)
+                0x0000a17e                strlen
+ .text.strncmp  0x0000a18e       0x2a /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strncmp.o)
+                0x0000a18e                strncmp
  .text._strtol_r
-                0x0000a1a8      0x10c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strtol.o)
-                0x0000a1a8                _strtol_r
+                0x0000a1b8      0x10c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strtol.o)
+                0x0000a1b8                _strtol_r
  .text._strtoul_r
-                0x0000a2b4       0xfc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strtoul.o)
-                0x0000a2b4                _strtoul_r
+                0x0000a2c4       0xfc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-strtoul.o)
+                0x0000a2c4                _strtoul_r
  .text.__submore
-                0x0000a3b0       0x72 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-ungetc.o)
-                0x0000a3b0                __submore
- *fill*         0x0000a422        0x2 
+                0x0000a3c0       0x72 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-ungetc.o)
+                0x0000a3c0                __submore
+ *fill*         0x0000a432        0x2 
  .text.__swbuf_r
-                0x0000a424       0xa8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-wbuf.o)
-                0x0000a424                __swbuf_r
+                0x0000a434       0xa8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-wbuf.o)
+                0x0000a434                __swbuf_r
  .text._write_r
-                0x0000a4cc       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-writer.o)
-                0x0000a4cc                _write_r
+                0x0000a4dc       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-writer.o)
+                0x0000a4dc                _write_r
  .text.__swsetup_r
-                0x0000a4f0       0xd8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-wsetup.o)
-                0x0000a4f0                __swsetup_r
+                0x0000a500       0xd8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-wsetup.o)
+                0x0000a500                __swsetup_r
  .text._close_r
-                0x0000a5c8       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-closer.o)
-                0x0000a5c8                _close_r
+                0x0000a5d8       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-closer.o)
+                0x0000a5d8                _close_r
  .text.__sflags
-                0x0000a5e8       0x6e /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-flags.o)
-                0x0000a5e8                __sflags
- *fill*         0x0000a656        0x2 
+                0x0000a5f8       0x6e /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-flags.o)
+                0x0000a5f8                __sflags
+ *fill*         0x0000a666        0x2 
  .text._fstat_r
-                0x0000a658       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fstatr.o)
-                0x0000a658                _fstat_r
+                0x0000a668       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-fstatr.o)
+                0x0000a668                _fstat_r
  .text._isatty_r
-                0x0000a67c       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-isattyr.o)
-                0x0000a67c                _isatty_r
+                0x0000a68c       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-isattyr.o)
+                0x0000a68c                _isatty_r
  .text._lseek_r
-                0x0000a69c       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-lseekr.o)
-                0x0000a69c                _lseek_r
+                0x0000a6ac       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-lseekr.o)
+                0x0000a6ac                _lseek_r
  .text._realloc_r
-                0x0000a6c0       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o)
-                0x0000a6c0                _realloc_r
+                0x0000a6d0       0x4c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000a6d0                _realloc_r
  .text.__ssputs_r
-                0x0000a70c       0xb2 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000a70c                __ssputs_r
- *fill*         0x0000a7be        0x2 
+                0x0000a71c       0xb2 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000a71c                __ssputs_r
+ *fill*         0x0000a7ce        0x2 
  .text._svfprintf_r
-                0x0000a7c0      0x1e8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000a7c0                _svfprintf_r
-                0x0000a7c0                _svfiprintf_r
+                0x0000a7d0      0x1e8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000a7d0                _svfprintf_r
+                0x0000a7d0                _svfiprintf_r
  .text._sungetc_r
-                0x0000a9a8       0x7c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfscanf.o)
-                0x0000a9a8                _sungetc_r
+                0x0000a9b8       0x7c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfscanf.o)
+                0x0000a9b8                _sungetc_r
  .text.__ssrefill_r
-                0x0000aa24       0x3a /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfscanf.o)
-                0x0000aa24                __ssrefill_r
- *fill*         0x0000aa5e        0x2 
+                0x0000aa34       0x3a /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfscanf.o)
+                0x0000aa34                __ssrefill_r
+ *fill*         0x0000aa6e        0x2 
  .text.__ssvfscanf_r
-                0x0000aa60      0x29c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfscanf.o)
-                0x0000aa60                __ssvfscanf_r
-                0x0000aa60                __ssvfiscanf_r
- .text._read_r  0x0000acfc       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-readr.o)
-                0x0000acfc                _read_r
+                0x0000aa70      0x29c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfscanf.o)
+                0x0000aa70                __ssvfscanf_r
+                0x0000aa70                __ssvfiscanf_r
+ .text._read_r  0x0000ad0c       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-readr.o)
+                0x0000ad0c                _read_r
  .text._malloc_usable_size_r
-                0x0000ad20       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-msizer.o)
-                0x0000ad20                _malloc_usable_size_r
+                0x0000ad30       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-msizer.o)
+                0x0000ad30                _malloc_usable_size_r
  *(.init)
- .init          0x0000ad34        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crti.o
-                0x0000ad34                _init
- .init          0x0000ad38        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtn.o
+ .init          0x0000ad44        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crti.o
+                0x0000ad44                _init
+ .init          0x0000ad48        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtn.o
  *(.fini)
- .fini          0x0000ad40        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crti.o
-                0x0000ad40                _fini
- .fini          0x0000ad44        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtn.o
+ .fini          0x0000ad50        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crti.o
+                0x0000ad50                _fini
+ .fini          0x0000ad54        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -8825,166 +8825,166 @@ LOAD /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm
  *(.dtors)
  *(.rodata*)
  .rodata._ZTVN8std_msgs4TimeE
-                0x0000ad4c       0x18 LPC1768/main.o
-                0x0000ad4c                vtable for std_msgs::Time
+                0x0000ad5c       0x18 LPC1768/main.o
+                0x0000ad5c                vtable for std_msgs::Time
  .rodata._ZTVN14rosserial_msgs9TopicInfoE
-                0x0000ad64       0x18 LPC1768/main.o
-                0x0000ad64                vtable for rosserial_msgs::TopicInfo
+                0x0000ad74       0x18 LPC1768/main.o
+                0x0000ad74                vtable for rosserial_msgs::TopicInfo
  .rodata._ZTVN14rosserial_msgs3LogE
-                0x0000ad7c       0x18 LPC1768/main.o
-                0x0000ad7c                vtable for rosserial_msgs::Log
+                0x0000ad8c       0x18 LPC1768/main.o
+                0x0000ad8c                vtable for rosserial_msgs::Log
  .rodata._ZTVN14rosserial_msgs20RequestParamResponseE
-                0x0000ad94       0x18 LPC1768/main.o
-                0x0000ad94                vtable for rosserial_msgs::RequestParamResponse
+                0x0000ada4       0x18 LPC1768/main.o
+                0x0000ada4                vtable for rosserial_msgs::RequestParamResponse
  .rodata._ZTVN8std_msgs19MultiArrayDimensionE
-                0x0000adac       0x18 LPC1768/main.o
-                0x0000adac                vtable for std_msgs::MultiArrayDimension
+                0x0000adbc       0x18 LPC1768/main.o
+                0x0000adbc                vtable for std_msgs::MultiArrayDimension
  .rodata._ZTVN8std_msgs16MultiArrayLayoutE
-                0x0000adc4       0x18 LPC1768/main.o
-                0x0000adc4                vtable for std_msgs::MultiArrayLayout
+                0x0000add4       0x18 LPC1768/main.o
+                0x0000add4                vtable for std_msgs::MultiArrayLayout
  .rodata._ZTVN8std_msgs15Int16MultiArrayE
-                0x0000addc       0x18 LPC1768/main.o
-                0x0000addc                vtable for std_msgs::Int16MultiArray
+                0x0000adec       0x18 LPC1768/main.o
+                0x0000adec                vtable for std_msgs::Int16MultiArray
  .rodata._ZTVN8std_msgs17Float32MultiArrayE
-                0x0000adf4       0x18 LPC1768/main.o
-                0x0000adf4                vtable for std_msgs::Float32MultiArray
+                0x0000ae04       0x18 LPC1768/main.o
+                0x0000ae04                vtable for std_msgs::Float32MultiArray
  .rodata._ZTVN3ros11NodeHandle_I12MbedHardwareLi25ELi25ELi512ELi512EEE
-                0x0000ae0c       0x14 LPC1768/main.o
-                0x0000ae0c                vtable for ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>
+                0x0000ae1c       0x14 LPC1768/main.o
+                0x0000ae1c                vtable for ros::NodeHandle_<MbedHardware, 25, 25, 512, 512>
  .rodata._ZTVN3ros10SubscriberIN8std_msgs15Int16MultiArrayEEE
-                0x0000ae20       0x18 LPC1768/main.o
-                0x0000ae20                vtable for ros::Subscriber<std_msgs::Int16MultiArray>
+                0x0000ae30       0x18 LPC1768/main.o
+                0x0000ae30                vtable for ros::Subscriber<std_msgs::Int16MultiArray>
  .rodata.str1.4
-                0x0000ae38      0x241 LPC1768/main.o
+                0x0000ae48      0x241 LPC1768/main.o
                                 0x245 (size before relaxing)
- *fill*         0x0000b079        0x3 
+ *fill*         0x0000b089        0x3 
  .rodata._ZN14rosserial_msgsL12REQUESTPARAME
-                0x0000b07c       0x1c LPC1768/main.o
+                0x0000b08c       0x1c LPC1768/main.o
  .rodata._ZTVN4mbed16SerialHalfDuplexE
-                0x0000b098       0x5c LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
-                0x0000b098                vtable for mbed::SerialHalfDuplex
+                0x0000b0a8       0x5c LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
+                0x0000b0a8                vtable for mbed::SerialHalfDuplex
  .rodata._ZTV5MX106
-                0x0000b0f4       0x4c LPC1768/dynamixel/MX106.o
-                0x0000b0f4                vtable for MX106
+                0x0000b104       0x4c LPC1768/dynamixel/MX106.o
+                0x0000b104                vtable for MX106
  .rodata._ZTV4MX28
-                0x0000b140       0x4c LPC1768/dynamixel/MX28.o
-                0x0000b140                vtable for MX28
+                0x0000b150       0x4c LPC1768/dynamixel/MX28.o
+                0x0000b150                vtable for MX28
  .rodata._ZTVN3AjK9MODSERIALE
-                0x0000b18c       0x5c /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
-                0x0000b18c                vtable for AjK::MODSERIAL
+                0x0000b19c       0x5c /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+                0x0000b19c                vtable for AjK::MODSERIAL
  .rodata.str1.4
-                0x0000b1e8       0x30 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
+                0x0000b1f8       0x30 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
  .rodata.str1.4
-                0x0000b218       0x66 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
- *fill*         0x0000b27e        0x2 
+                0x0000b228       0x66 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
+ *fill*         0x0000b28e        0x2 
  .rodata.us_interface
-                0x0000b280       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
+                0x0000b290       0x14 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
  .rodata.us_data
-                0x0000b294        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
+                0x0000b2a4        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
  .rodata.PinMap_UART_RTS
-                0x0000b29c       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x0000b2ac       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
  .rodata.PinMap_UART_RX
-                0x0000b2c0       0x6c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x0000b2d0       0x6c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
  .rodata.PinMap_UART_TX
-                0x0000b32c       0x6c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x0000b33c       0x6c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
  .rodata.PinMap_UART_CTS
-                0x0000b398       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+                0x0000b3a8       0x24 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
  .rodata._ZTVN4mbed8FileBaseE
-                0x0000b3bc       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
-                0x0000b3bc                vtable for mbed::FileBase
+                0x0000b3cc       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
+                0x0000b3cc                vtable for mbed::FileBase
  .rodata._ZTVN4mbed8FileLikeE
-                0x0000b3cc       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
-                0x0000b3cc                vtable for mbed::FileLike
+                0x0000b3dc       0x3c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
+                0x0000b3dc                vtable for mbed::FileLike
  .rodata._ZTVN4mbed6SerialE
-                0x0000b408       0x5c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
-                0x0000b408                vtable for mbed::Serial
+                0x0000b418       0x5c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
+                0x0000b418                vtable for mbed::Serial
  .rodata._ZTVN4mbed10SerialBaseE
-                0x0000b464       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
-                0x0000b464                vtable for mbed::SerialBase
+                0x0000b474       0x10 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
+                0x0000b474                vtable for mbed::SerialBase
  .rodata._ZTVN4mbed6StreamE
-                0x0000b474       0x44 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
-                0x0000b474                vtable for mbed::Stream
+                0x0000b484       0x44 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+                0x0000b484                vtable for mbed::Stream
  .rodata.str1.4
-                0x0000b4b8        0x7 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
- *fill*         0x0000b4bf        0x1 
+                0x0000b4c8        0x7 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+ *fill*         0x0000b4cf        0x1 
  .rodata.__stdin_name
-                0x0000b4c0        0x7 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x0000b4c0                __stdin_name
- *fill*         0x0000b4c7        0x1 
+                0x0000b4d0        0x7 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x0000b4d0                __stdin_name
+ *fill*         0x0000b4d7        0x1 
  .rodata.__stderr_name
-                0x0000b4c8        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x0000b4c8                __stderr_name
+                0x0000b4d8        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x0000b4d8                __stderr_name
  .rodata.__stdout_name
-                0x0000b4d0        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x0000b4d0                __stdout_name
+                0x0000b4e0        0x8 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x0000b4e0                __stdout_name
  .rodata._ZTVN4mbed10FileHandleE
-                0x0000b4d8       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
-                0x0000b4d8                vtable for mbed::FileHandle
+                0x0000b4e8       0x2c /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x0000b4e8                vtable for mbed::FileHandle
  .rodata.str1.4
-                0x0000b504        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+                0x0000b514        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
                                   0xe (size before relaxing)
  .rodata.__sf_fake_stdin
-                0x0000b510       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x0000b510                __sf_fake_stdin
+                0x0000b520       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x0000b520                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x0000b530       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x0000b530                __sf_fake_stdout
+                0x0000b540       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x0000b540                __sf_fake_stdout
  .rodata.__sf_fake_stderr
-                0x0000b550       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x0000b550                __sf_fake_stderr
+                0x0000b560       0x20 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x0000b560                __sf_fake_stderr
  .rodata.str1.1
-                0x0000b570        0x2 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
- *fill*         0x0000b572        0x2 
+                0x0000b580        0x2 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ *fill*         0x0000b582        0x2 
  .rodata._global_impure_ptr
-                0x0000b574        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
-                0x0000b574                _global_impure_ptr
+                0x0000b584        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+                0x0000b584                _global_impure_ptr
  .rodata.str1.1
-                0x0000b578       0x11 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000b588       0x11 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata.str1.1
-                0x0000b589       0x22 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
- *fill*         0x0000b5ab        0x1 
- .rodata        0x0000b5ac        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x0000b599       0x22 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ *fill*         0x0000b5bb        0x1 
+ .rodata        0x0000b5bc        0xc /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
  .rodata.str1.1
-                0x0000b5b8       0x1b /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x0000b5c8       0x1b /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
  .rodata._ctype_
-                0x0000b5d3      0x101 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-ctype_.o)
-                0x0000b5d3                _ctype_
+                0x0000b5e3      0x101 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-ctype_.o)
+                0x0000b5e3                _ctype_
  .rodata.str1.1
-                0x0000b6d4       0x11 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000b6e4       0x11 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata.str1.1
-                0x0000b6d4        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfscanf.o)
+                0x0000b6e4        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfscanf.o)
  *(.eh_frame*)
- .eh_frame      0x0000b6d4        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
- .eh_frame      0x0000b6d4        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtend.o
+ .eh_frame      0x0000b6e4        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
+ .eh_frame      0x0000b6e4        0x4 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtend.o
 
-.glue_7         0x0000b6d8        0x0
- .glue_7        0x0000b6d8        0x0 linker stubs
+.glue_7         0x0000b6e8        0x0
+ .glue_7        0x0000b6e8        0x0 linker stubs
 
-.glue_7t        0x0000b6d8        0x0
- .glue_7t       0x0000b6d8        0x0 linker stubs
+.glue_7t        0x0000b6e8        0x0
+ .glue_7t       0x0000b6e8        0x0 linker stubs
 
-.vfp11_veneer   0x0000b6d8        0x0
- .vfp11_veneer  0x0000b6d8        0x0 linker stubs
+.vfp11_veneer   0x0000b6e8        0x0
+ .vfp11_veneer  0x0000b6e8        0x0 linker stubs
 
-.v4_bx          0x0000b6d8        0x0
- .v4_bx         0x0000b6d8        0x0 linker stubs
+.v4_bx          0x0000b6e8        0x0
+ .v4_bx         0x0000b6e8        0x0 linker stubs
 
-.iplt           0x0000b6d8        0x0
- .iplt          0x0000b6d8        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
+.iplt           0x0000b6e8        0x0
+ .iplt          0x0000b6e8        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
 
-.rel.dyn        0x0000b6d8        0x0
- .rel.iplt      0x0000b6d8        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
+.rel.dyn        0x0000b6e8        0x0
+ .rel.iplt      0x0000b6e8        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000b6d8                __exidx_start = .
+                0x0000b6e8                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000b6d8                __exidx_end = .
-                0x0000b6d8                __etext = .
+                0x0000b6e8                __exidx_end = .
+                0x0000b6e8                __etext = .
 
-.data           0x100000c8       0xe4 load address 0x0000b6d8
+.data           0x100000c8       0xe4 load address 0x0000b6e8
                 0x100000c8                __data_start__ = .
                 0x100000c8                Image$$RW_IRAM1$$Base = .
  *(vtable)
@@ -9034,20 +9034,20 @@ LOAD /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm
                 0x100001ac                . = ALIGN (0x4)
                 0x100001ac                __data_end__ = .
 
-.jcr            0x100001ac        0x0 load address 0x0000b7bc
+.jcr            0x100001ac        0x0 load address 0x0000b7cc
  .jcr           0x100001ac        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
 
 .tm_clone_table
-                0x100001ac        0x0 load address 0x0000b7bc
+                0x100001ac        0x0 load address 0x0000b7cc
  .tm_clone_table
                 0x100001ac        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
  .tm_clone_table
                 0x100001ac        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtend.o
 
-.igot.plt       0x100001ac        0x0 load address 0x0000b7bc
+.igot.plt       0x100001ac        0x0 load address 0x0000b7cc
  .igot.plt      0x100001ac        0x0 /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
 
-.bss            0x100001ac      0xa04 load address 0x0000b7bc
+.bss            0x100001ac      0xa04 load address 0x0000b7cc
                 0x100001ac                __bss_start__ = .
  *(.bss*)
  .bss           0x100001ac       0x1c /home/maeda/adamgreen-gcc4mbed-521e2af/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/crtbegin.o
@@ -9785,44 +9785,44 @@ OUTPUT(LPC1768/YOZAKURA_THETA_ARM.elf elf32-littlearm)
  .debug_macro   0x0000d3df       0x16 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
  .debug_macro   0x0000d3f5      0x4f7 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
 
-.debug_line     0x00000000    0x1538d
- .debug_line    0x00000000     0x35dd LPC1768/main.o
- .debug_line    0x000035dd      0x98c LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
- .debug_line    0x00003f69      0xf9e LPC1768/dynamixel/MX106.o
- .debug_line    0x00004f07      0xf9b LPC1768/dynamixel/MX28.o
- .debug_line    0x00005ea2      0x4f2 LPC1768/gcc4mbed.o
- .debug_line    0x00006394      0xccd /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(GETC.o)
- .debug_line    0x00007061      0xd1a /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(ISR_RX.o)
- .debug_line    0x00007d7b      0xed8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
- .debug_line    0x00008c53      0xd0f /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(PUTC.o)
- .debug_line    0x00009962      0x364 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(time.o)
- .debug_line    0x00009cc6      0xdbe /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
- .debug_line    0x0000aa84      0xd25 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(ISR_TX.o)
- .debug_line    0x0000b7a9      0xc1a /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL_LPC1768.o)
- .debug_line    0x0000c3c3      0x51f /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(board.o)
- .debug_line    0x0000c8e2      0x531 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(error.o)
- .debug_line    0x0000ce13      0x515 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio.o)
- .debug_line    0x0000d328      0x64f /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(mbed_interface.o)
- .debug_line    0x0000d977      0x463 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
- .debug_line    0x0000ddda      0x6e5 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(semihost_api.o)
- .debug_line    0x0000e4bf      0x568 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(ticker_api.o)
- .debug_line    0x0000ea27      0x491 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
- .debug_line    0x0000eeb8      0x4b3 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(wait_api.o)
- .debug_line    0x0000f36b      0x301 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(cmsis_nvic.o)
- .debug_line    0x0000f66c      0x33f /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(system_LPC17xx.o)
- .debug_line    0x0000f9ab      0x48f /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
- .debug_line    0x0000fe3a      0x41d /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap.o)
- .debug_line    0x00010257      0x895 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
- .debug_line    0x00010aec      0x4ca /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
- .debug_line    0x00010fb6      0x768 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
- .debug_line    0x0001171e      0x770 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
- .debug_line    0x00011e8e      0x7ca /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
- .debug_line    0x00012658      0x832 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
- .debug_line    0x00012e8a      0x8c2 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
- .debug_line    0x0001374c      0x865 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
- .debug_line    0x00013fb1      0x797 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
- .debug_line    0x00014748      0xb86 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
- .debug_line    0x000152ce       0xbf /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(startup_LPC17xx.o)
+.debug_line     0x00000000    0x15392
+ .debug_line    0x00000000     0x35e2 LPC1768/main.o
+ .debug_line    0x000035e2      0x98c LPC1768/SerialHalfDuplex/SerialHalfDuplex.o
+ .debug_line    0x00003f6e      0xf9e LPC1768/dynamixel/MX106.o
+ .debug_line    0x00004f0c      0xf9b LPC1768/dynamixel/MX28.o
+ .debug_line    0x00005ea7      0x4f2 LPC1768/gcc4mbed.o
+ .debug_line    0x00006399      0xccd /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(GETC.o)
+ .debug_line    0x00007066      0xd1a /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(ISR_RX.o)
+ .debug_line    0x00007d80      0xed8 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL.o)
+ .debug_line    0x00008c58      0xd0f /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(PUTC.o)
+ .debug_line    0x00009967      0x364 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(time.o)
+ .debug_line    0x00009ccb      0xdbe /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(INIT.o)
+ .debug_line    0x0000aa89      0xd25 /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(ISR_TX.o)
+ .debug_line    0x0000b7ae      0xc1a /home/maeda/catkin_ws/src/rosserial/rosserial_mbed/src/Release/LPC1768/libsrc.a(MODSERIAL_LPC1768.o)
+ .debug_line    0x0000c3c8      0x51f /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(board.o)
+ .debug_line    0x0000c8e7      0x531 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(error.o)
+ .debug_line    0x0000ce18      0x515 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio.o)
+ .debug_line    0x0000d32d      0x64f /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(mbed_interface.o)
+ .debug_line    0x0000d97c      0x463 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap_common.o)
+ .debug_line    0x0000dddf      0x6e5 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(semihost_api.o)
+ .debug_line    0x0000e4c4      0x568 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(ticker_api.o)
+ .debug_line    0x0000ea2c      0x491 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker_api.o)
+ .debug_line    0x0000eebd      0x4b3 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(wait_api.o)
+ .debug_line    0x0000f370      0x301 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(cmsis_nvic.o)
+ .debug_line    0x0000f671      0x33f /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(system_LPC17xx.o)
+ .debug_line    0x0000f9b0      0x48f /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(gpio_api.o)
+ .debug_line    0x0000fe3f      0x41d /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(pinmap.o)
+ .debug_line    0x0001025c      0x895 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(serial_api.o)
+ .debug_line    0x00010af1      0x4ca /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(us_ticker.o)
+ .debug_line    0x00010fbb      0x768 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileBase.o)
+ .debug_line    0x00011723      0x770 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FileLike.o)
+ .debug_line    0x00011e93      0x7ca /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(FilePath.o)
+ .debug_line    0x0001265d      0x832 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Serial.o)
+ .debug_line    0x00012e8f      0x8c2 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(SerialBase.o)
+ .debug_line    0x00013751      0x865 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Stream.o)
+ .debug_line    0x00013fb6      0x797 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(Timer.o)
+ .debug_line    0x0001474d      0xb86 /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(retarget.o)
+ .debug_line    0x000152d3       0xbf /home/maeda/adamgreen-gcc4mbed-521e2af/external/mbed/Release/LPC1768/mbed.a(startup_LPC17xx.o)
 
 .debug_str      0x00000000    0x1e41a
  .debug_str     0x00000000    0x18551 LPC1768/main.o

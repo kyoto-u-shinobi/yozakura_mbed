@@ -70,7 +70,7 @@ void DxResetTorque() {
   for (int i=0; i<5; i++) {
     goals[i] = position.data[i];
     servos[i]->SetGoal(int(goals[i]));
-//    servos[i}->SetTorqueLimit(1.0);       要確認
+    servos[i]->SetTorqueLimit(1.0);
   }
 }
 
