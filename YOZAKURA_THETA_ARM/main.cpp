@@ -16,10 +16,10 @@ MX28 *wrist_yaw = new MX28(p13, p14, 5);
 /*
 AnalogIn co2(p15);
 */
-/*
+
 MEMS thermo_sensors[] = { MEMS(p9, p10),
                           MEMS(p28, p27) };
-*/
+
 
 int minima[] =   { 360,   90,   90,   90,   90};
 int maxima[] =   { 360,  270,  270,  359,  270};
@@ -72,6 +72,8 @@ void DxResetTorque() {
     servos[i]->SetGoal(int(goals[i]));
     servos[i]->SetTorqueLimit(1.0);
   }
+  nh.spinOnce();
+  wait_ms(30);
 }
 
 // Check if any of the dynaimxel is moving
@@ -163,7 +165,8 @@ int main() {
   servos.push_back(elbow_pitch);
   servos.push_back(wrist_yaw);
   
-//  float thermo_data[2][16];
+  float thermo_data1[16];   // ------------- Notice --------------
+  float thermo_data2[16];   // 2-dimensional array is NOT suitable
 
   nh.initNode();
 
@@ -190,16 +193,14 @@ int main() {
   while (1) {
 
     // Get and publish thermal data
-    /*
-    for (int i=0; i < 2; i++) {
-      thermo_sensors[i].GetTemp(thermo_data[i]);
-      for (int j=0; j < 16; j++) {
-        thermo.data[i*16+j]=thermo_data[i][j];
-      }
+    thermo_sensors[0].GetTemp(thermo_data1);
+    thermo_sensors[1].GetTemp(thermo_data2);
+    for (int i=0; i < 16; i++) {
+      thermo.data[i] = thermo_data1[i];
+      thermo.data[16+i] = thermo_data2[i];
     }
     pub_thermal.publish(&thermo);
-    */
-
+    
     // Get and publish co2 data
     /*
     co2.data = GetCO2();
